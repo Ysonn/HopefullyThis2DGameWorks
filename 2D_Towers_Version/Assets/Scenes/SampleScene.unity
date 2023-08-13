@@ -531,7 +531,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 76565345}
-  - component: {fileID: 76565346}
   m_Layer: 0
   m_Name: EndOfBarrel
   m_TagString: Untagged
@@ -546,28 +545,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 76565344}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 7.51, y: 1.58, z: 0}
+  m_LocalRotation: {x: 0, y: 0, z: 1, w: 0}
+  m_LocalPosition: {x: 6.9, y: 1.7, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1386862484}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &76565346
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 76565344}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a22943c6a1a3a4bffb3d36b97a7770bd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  AimBarrel: {fileID: 194535034}
-  cannonBall: {fileID: 6515164717540101738, guid: e797368cb18e847528e7b7a61873960c, type: 3}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
 --- !u!1 &78176321
 GameObject:
   m_ObjectHideFlags: 0
@@ -1513,51 +1498,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &194535033
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 194535035}
-  - component: {fileID: 194535034}
-  m_Layer: 0
-  m_Name: CannonManager
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &194535034
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 194535033}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dfadc30a46f414948aa04e7568318f34, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  personShooting: 0
---- !u!4 &194535035
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 194535033}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.0932246, y: 1.6563684, z: 0.025814625}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 13
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &204845396
 GameObject:
   m_ObjectHideFlags: 0
@@ -7667,6 +7607,55 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &939877255
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 939877256}
+  - component: {fileID: 939877257}
+  m_Layer: 0
+  m_Name: CannonManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &939877256
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 939877255}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.1850599, y: 0.46304458, z: 0.050943997}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 13
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &939877257
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 939877255}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38a38b8164c1f4785bf9cf1f7ea03521, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  personShooting: 0
+  cannonBallRigidBody: {fileID: -309168483889359073, guid: e797368cb18e847528e7b7a61873960c, type: 3}
+  cannonBall: {fileID: 6515164717540101738, guid: e797368cb18e847528e7b7a61873960c, type: 3}
+  blueBarrelEnd: {fileID: 76565344}
+  redBarrelEnd: {fileID: 1069528359}
 --- !u!1 &962230266
 GameObject:
   m_ObjectHideFlags: 0
@@ -8768,7 +8757,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1069528360}
-  - component: {fileID: 1069528361}
   m_Layer: 0
   m_Name: EndOfBarrel
   m_TagString: Untagged
@@ -8791,20 +8779,6 @@ Transform:
   m_Father: {fileID: 1951133078}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1069528361
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1069528359}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 59facef3eab3545fca772fde15b8ad65, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  AimBarrel: {fileID: 194535034}
-  cannonBall: {fileID: 6515164717540101738, guid: e797368cb18e847528e7b7a61873960c, type: 3}
 --- !u!1 &1103943071
 GameObject:
   m_ObjectHideFlags: 0
@@ -10068,7 +10042,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1386862484}
   - component: {fileID: 1386862483}
-  - component: {fileID: 1386862485}
   m_Layer: 0
   m_Name: CannonBarrelBlue
   m_TagString: Untagged
@@ -10144,21 +10117,6 @@ Transform:
   m_Father: {fileID: 2035419622}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 373.524}
---- !u!114 &1386862485
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1386862482}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fa3533f1e171a4145a06b323753fb580, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 1
-  RotAngleY: 45
-  AimBarrel: {fileID: 194535034}
 --- !u!1 &1403347014
 GameObject:
   m_ObjectHideFlags: 0
@@ -14715,7 +14673,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1951133078}
   - component: {fileID: 1951133080}
-  - component: {fileID: 1951133081}
   m_Layer: 0
   m_Name: CannonBarrelRed
   m_TagString: Untagged
@@ -14791,21 +14748,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &1951133081
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1951133077}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a6cdf40d5240c4d189873aceb421806c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 1
-  RotAngleY: 45
-  AimBarrel: {fileID: 194535034}
 --- !u!1 &1993006884
 GameObject:
   m_ObjectHideFlags: 0
