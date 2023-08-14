@@ -5132,6 +5132,7 @@ GameObject:
   - component: {fileID: 719995888}
   - component: {fileID: 719995887}
   - component: {fileID: 719995886}
+  - component: {fileID: 719995890}
   m_Layer: 0
   m_Name: CannonBaseRed
   m_TagString: Untagged
@@ -5246,6 +5247,23 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &719995890
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 719995885}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6cdf40d5240c4d189873aceb421806c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cannonBall: {fileID: 0}
+  redBarrelEnd: {fileID: 0}
+  speed: 1
+  RotAngleY: 45
+  SHOOTTHECANNON: {fileID: 0}
 --- !u!1 &723099897
 GameObject:
   m_ObjectHideFlags: 0
@@ -10042,6 +10060,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1386862484}
   - component: {fileID: 1386862483}
+  - component: {fileID: 1386862485}
   m_Layer: 0
   m_Name: CannonBarrelBlue
   m_TagString: Untagged
@@ -10117,6 +10136,23 @@ Transform:
   m_Father: {fileID: 2035419622}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 373.524}
+--- !u!114 &1386862485
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1386862482}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa3533f1e171a4145a06b323753fb580, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cannonBall: {fileID: 6515164717540101738, guid: e797368cb18e847528e7b7a61873960c, type: 3}
+  blueBarrelEnd: {fileID: 76565344}
+  speed: 1
+  RotAngleY: 45
+  SHOOTTHECANNON: {fileID: 939877257}
 --- !u!1 &1403347014
 GameObject:
   m_ObjectHideFlags: 0
@@ -14673,6 +14709,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1951133078}
   - component: {fileID: 1951133080}
+  - component: {fileID: 1951133081}
   m_Layer: 0
   m_Name: CannonBarrelRed
   m_TagString: Untagged
@@ -14748,6 +14785,23 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1951133081
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1951133077}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6cdf40d5240c4d189873aceb421806c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cannonBall: {fileID: 6515164717540101738, guid: e797368cb18e847528e7b7a61873960c, type: 3}
+  redBarrelEnd: {fileID: 1069528359}
+  speed: 1
+  RotAngleY: 45
+  SHOOTTHECANNON: {fileID: 939877257}
 --- !u!1 &1993006884
 GameObject:
   m_ObjectHideFlags: 0
