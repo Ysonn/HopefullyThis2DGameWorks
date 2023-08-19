@@ -9,6 +9,12 @@ public class RedCannonManager : MonoBehaviour
     public float speed = 1;
     public float RotAngleY = 45;
     private bool canShoot = true;
+    private AudioSource audioSource;
+
+    void Start()
+    {
+        audioSource = GetComponent<AudioSource>();
+    }
 
     // Update is called once per frame
     void Update()
@@ -19,6 +25,7 @@ public class RedCannonManager : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.LeftShift) && canShoot)
         {
             Instantiate(cannonBall, redBarrelEnd.transform.position, transform.rotation);
+            audioSource.Play();
             StartCoroutine(FireDelay());
         }       
     }  
