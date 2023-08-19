@@ -9,7 +9,7 @@ public class MoveCannonBall : MonoBehaviour
     void Start()
     {
         cannonBallRigidBody2D = GetComponent<Rigidbody2D>();
-        Vector2 force = transform.right * 7.0f;
+        Vector2 force = transform.right * 1.5f;
         cannonBallRigidBody2D.AddForce(force, ForceMode2D.Impulse);
     }
 

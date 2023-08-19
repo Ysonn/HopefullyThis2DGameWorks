@@ -4,11 +4,11 @@ using UnityEngine;
 
 public class TurnManagementScript : MonoBehaviour
 {
-    public static float turnNumber;
+    public static int turnNumber;
     // Start is called before the first frame update
     void Start()
     {
-        
+        turnNumber = 0;
     }
 
     // Update is called once per frame
@@ -17,6 +17,7 @@ public class TurnManagementScript : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space))
         {
             turnNumber += 1;
+            Debug.Log (turnNumber);
         }
     }
 }

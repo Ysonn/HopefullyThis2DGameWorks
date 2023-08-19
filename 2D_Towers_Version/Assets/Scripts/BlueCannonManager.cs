@@ -8,23 +8,26 @@ public class BlueCannonManager: MonoBehaviour
     public GameObject blueBarrelEnd;
     public float speed = 1;
     public float RotAngleY = 45;
+    private bool canShoot = true;
 
     
     // Update is called once per frame
     void Update()
     {
-        
-        if (TurnManagementScript.turnNumber % 2 == 0)
-        {
-            float rotationZ = Mathf.SmoothStep(-45, RotAngleY, Mathf.PingPong(Time.time * speed, 1));
-            transform.rotation = Quaternion.Euler(0, 180, rotationZ);
-        }
+        float rotationZ = Mathf.SmoothStep(-45, RotAngleY, Mathf.PingPong(Time.time * speed, 1));
+        transform.rotation = Quaternion.Euler(0, 180, rotationZ);
 
-        if (TurnManagementScript.turnNumber % 2 == 0)
+        if (Input.GetKeyDown(KeyCode.RightShift) && canShoot)
         {
             Instantiate(cannonBall, blueBarrelEnd.transform.position, transform.rotation);
-            Debug.Log("Blue shot first!");
-            TurnManagementScript.turnNumber += 1;
-        }
+            StartCoroutine(FireDelay());
+        }        
+    }
+
+    IEnumerator FireDelay()
+    {
+        canShoot = false;
+        yield return new WaitForSeconds(1f);
+        canShoot = true;
     }
 }
