@@ -137,7 +137,7 @@ GameObject:
   - component: {fileID: 59320816}
   m_Layer: 0
   m_Name: BlueBrick (30)
-  m_TagString: Untagged
+  m_TagString: Wood
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -270,7 +270,7 @@ GameObject:
   - component: {fileID: 65862047}
   m_Layer: 0
   m_Name: BlueBrick (2)
-  m_TagString: Untagged
+  m_TagString: Wood
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -403,7 +403,7 @@ GameObject:
   - component: {fileID: 71411187}
   m_Layer: 0
   m_Name: BlueBrick (33)
-  m_TagString: Untagged
+  m_TagString: Wood
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -567,7 +567,7 @@ GameObject:
   - component: {fileID: 78176322}
   m_Layer: 0
   m_Name: BlueBrick (6)
-  m_TagString: Untagged
+  m_TagString: Wood
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -847,7 +847,7 @@ GameObject:
   - component: {fileID: 118778605}
   m_Layer: 0
   m_Name: BlueBrick (25)
-  m_TagString: Untagged
+  m_TagString: Wood
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -980,7 +980,7 @@ GameObject:
   - component: {fileID: 137449292}
   m_Layer: 0
   m_Name: BlueBrick (8)
-  m_TagString: Untagged
+  m_TagString: Wood
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1113,7 +1113,7 @@ GameObject:
   - component: {fileID: 157632327}
   m_Layer: 0
   m_Name: BlueBrick (24)
-  m_TagString: Untagged
+  m_TagString: Wood
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1246,7 +1246,7 @@ GameObject:
   - component: {fileID: 178248400}
   m_Layer: 0
   m_Name: BlueBrick (27)
-  m_TagString: Untagged
+  m_TagString: Wood
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1379,7 +1379,7 @@ GameObject:
   - component: {fileID: 181689506}
   m_Layer: 0
   m_Name: BlueBrick (26)
-  m_TagString: Untagged
+  m_TagString: Wood
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1806,7 +1806,7 @@ GameObject:
   - component: {fileID: 220345053}
   m_Layer: 0
   m_Name: BlueBrick (8)
-  m_TagString: Untagged
+  m_TagString: Wood
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2086,7 +2086,7 @@ GameObject:
   - component: {fileID: 225126911}
   m_Layer: 0
   m_Name: BlueBrick (28)
-  m_TagString: Untagged
+  m_TagString: Wood
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2260,7 +2260,7 @@ GameObject:
   - component: {fileID: 252583657}
   m_Layer: 0
   m_Name: BlueBrick (3)
-  m_TagString: Untagged
+  m_TagString: Wood
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2393,7 +2393,7 @@ GameObject:
   - component: {fileID: 260159830}
   m_Layer: 0
   m_Name: BlueBrick (23)
-  m_TagString: Untagged
+  m_TagString: Wood
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2714,6 +2714,7 @@ GameObject:
   - component: {fileID: 282239478}
   - component: {fileID: 282239477}
   - component: {fileID: 282239479}
+  - component: {fileID: 282239480}
   m_Layer: 0
   m_Name: Floor
   m_TagString: Untagged
@@ -2761,7 +2762,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -2801,7 +2802,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0, y: -0.00000035762787}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -2812,8 +2813,29 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 1, y: 0.9999993}
   m_EdgeRadius: 0
+--- !u!50 &282239480
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 282239476}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 1
+  m_Constraints: 7
 --- !u!1 &320271679
 GameObject:
   m_ObjectHideFlags: 0
@@ -2869,7 +2891,7 @@ GameObject:
   - component: {fileID: 359619958}
   m_Layer: 0
   m_Name: BlueBrick (32)
-  m_TagString: Untagged
+  m_TagString: Wood
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3149,7 +3171,7 @@ GameObject:
   - component: {fileID: 430988880}
   m_Layer: 0
   m_Name: BlueBrick (4)
-  m_TagString: Untagged
+  m_TagString: Wood
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3429,7 +3451,7 @@ GameObject:
   - component: {fileID: 460915069}
   m_Layer: 0
   m_Name: BlueBrick (5)
-  m_TagString: Untagged
+  m_TagString: Wood
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3603,7 +3625,7 @@ GameObject:
   - component: {fileID: 490551608}
   m_Layer: 0
   m_Name: BlueBrick (21)
-  m_TagString: Untagged
+  m_TagString: Wood
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3736,7 +3758,7 @@ GameObject:
   - component: {fileID: 518171544}
   m_Layer: 0
   m_Name: BlueBrick (16)
-  m_TagString: Untagged
+  m_TagString: Wood
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4100,7 +4122,7 @@ GameObject:
   - component: {fileID: 582849322}
   m_Layer: 0
   m_Name: BlueBrick (15)
-  m_TagString: Untagged
+  m_TagString: Wood
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4233,7 +4255,7 @@ GameObject:
   - component: {fileID: 604474114}
   m_Layer: 0
   m_Name: BlueBrick (9)
-  m_TagString: Untagged
+  m_TagString: Wood
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4366,7 +4388,7 @@ GameObject:
   - component: {fileID: 655938906}
   m_Layer: 0
   m_Name: BlueBrick (22)
-  m_TagString: Untagged
+  m_TagString: Wood
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4499,7 +4521,7 @@ GameObject:
   - component: {fileID: 657297967}
   m_Layer: 0
   m_Name: BlueBrick (14)
-  m_TagString: Untagged
+  m_TagString: Wood
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4632,7 +4654,7 @@ GameObject:
   - component: {fileID: 671146029}
   m_Layer: 0
   m_Name: BlueBrick (17)
-  m_TagString: Untagged
+  m_TagString: Wood
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4912,7 +4934,7 @@ GameObject:
   - component: {fileID: 691530520}
   m_Layer: 0
   m_Name: BlueBrick (1)
-  m_TagString: Untagged
+  m_TagString: Wood
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5045,7 +5067,7 @@ GameObject:
   - component: {fileID: 711189766}
   m_Layer: 0
   m_Name: BlueBrick (34)
-  m_TagString: Untagged
+  m_TagString: Wood
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5304,7 +5326,7 @@ GameObject:
   - component: {fileID: 723099898}
   m_Layer: 0
   m_Name: BlueBrick (1)
-  m_TagString: Untagged
+  m_TagString: Wood
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5584,7 +5606,7 @@ GameObject:
   - component: {fileID: 730576366}
   m_Layer: 0
   m_Name: BlueBrick (10)
-  m_TagString: Untagged
+  m_TagString: Wood
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5801,7 +5823,7 @@ GameObject:
   - component: {fileID: 796264216}
   m_Layer: 0
   m_Name: BlueBrick (9)
-  m_TagString: Untagged
+  m_TagString: Wood
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5934,7 +5956,7 @@ GameObject:
   - component: {fileID: 815649467}
   m_Layer: 0
   m_Name: BlueBrick (33)
-  m_TagString: Untagged
+  m_TagString: Wood
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6067,7 +6089,7 @@ GameObject:
   - component: {fileID: 818779518}
   m_Layer: 0
   m_Name: BlueBrick (14)
-  m_TagString: Untagged
+  m_TagString: Wood
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6200,7 +6222,7 @@ GameObject:
   - component: {fileID: 847475196}
   m_Layer: 0
   m_Name: BlueBrick (12)
-  m_TagString: Untagged
+  m_TagString: Wood
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6480,7 +6502,7 @@ GameObject:
   - component: {fileID: 891797417}
   m_Layer: 0
   m_Name: BlueBrick (27)
-  m_TagString: Untagged
+  m_TagString: Wood
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6613,7 +6635,7 @@ GameObject:
   - component: {fileID: 904416738}
   m_Layer: 0
   m_Name: BlueBrick (32)
-  m_TagString: Untagged
+  m_TagString: Wood
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6746,7 +6768,7 @@ GameObject:
   - component: {fileID: 907004551}
   m_Layer: 0
   m_Name: BlueBrick (19)
-  m_TagString: Untagged
+  m_TagString: Wood
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7491,7 +7513,7 @@ GameObject:
   - component: {fileID: 924768525}
   m_Layer: 0
   m_Name: BlueBrick (10)
-  m_TagString: Untagged
+  m_TagString: Wood
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7665,7 +7687,7 @@ GameObject:
   - component: {fileID: 962230267}
   m_Layer: 0
   m_Name: BlueBrick (22)
-  m_TagString: Untagged
+  m_TagString: Wood
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7798,7 +7820,7 @@ GameObject:
   - component: {fileID: 1003579809}
   m_Layer: 0
   m_Name: BlueBrick (3)
-  m_TagString: Untagged
+  m_TagString: Wood
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8078,7 +8100,7 @@ GameObject:
   - component: {fileID: 1018845729}
   m_Layer: 0
   m_Name: BlueBrick (29)
-  m_TagString: Untagged
+  m_TagString: Wood
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8211,7 +8233,7 @@ GameObject:
   - component: {fileID: 1024917572}
   m_Layer: 0
   m_Name: BlueBrick (18)
-  m_TagString: Untagged
+  m_TagString: Wood
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8491,7 +8513,7 @@ GameObject:
   - component: {fileID: 1039745064}
   m_Layer: 0
   m_Name: BlueBrick (7)
-  m_TagString: Untagged
+  m_TagString: Wood
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8624,7 +8646,7 @@ GameObject:
   - component: {fileID: 1052840610}
   m_Layer: 0
   m_Name: BlueBrick (20)
-  m_TagString: Untagged
+  m_TagString: Wood
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8788,7 +8810,7 @@ GameObject:
   - component: {fileID: 1103943072}
   m_Layer: 0
   m_Name: BlueBrick (12)
-  m_TagString: Untagged
+  m_TagString: Wood
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8921,7 +8943,7 @@ GameObject:
   - component: {fileID: 1157952414}
   m_Layer: 0
   m_Name: BlueBrick (35)
-  m_TagString: Untagged
+  m_TagString: Wood
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9201,7 +9223,7 @@ GameObject:
   - component: {fileID: 1199707731}
   m_Layer: 0
   m_Name: BlueBrick (21)
-  m_TagString: Untagged
+  m_TagString: Wood
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9481,7 +9503,7 @@ GameObject:
   - component: {fileID: 1224437304}
   m_Layer: 0
   m_Name: BlueBrick (13)
-  m_TagString: Untagged
+  m_TagString: Wood
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9614,7 +9636,7 @@ GameObject:
   - component: {fileID: 1263175463}
   m_Layer: 0
   m_Name: BlueBrick (28)
-  m_TagString: Untagged
+  m_TagString: Wood
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10141,7 +10163,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: a6dec449175bc4eddb9f24a5267fd049, type: 3}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
@@ -10152,7 +10174,7 @@ AudioSource:
   DopplerLevel: 1
   MinDistance: 1
   MaxDistance: 500
-  Pan2D: 0.4
+  Pan2D: 0.6
   rolloffMode: 0
   BypassEffects: 0
   BypassListenerEffects: 0
@@ -10828,7 +10850,7 @@ GameObject:
   - component: {fileID: 1458641208}
   m_Layer: 0
   m_Name: BlueBrick (15)
-  m_TagString: Untagged
+  m_TagString: Wood
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10961,7 +10983,7 @@ GameObject:
   - component: {fileID: 1460846804}
   m_Layer: 0
   m_Name: BlueBrick (31)
-  m_TagString: Untagged
+  m_TagString: Wood
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11241,7 +11263,7 @@ GameObject:
   - component: {fileID: 1533291721}
   m_Layer: 0
   m_Name: BlueBrick (16)
-  m_TagString: Untagged
+  m_TagString: Wood
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11374,7 +11396,7 @@ GameObject:
   - component: {fileID: 1543540251}
   m_Layer: 0
   m_Name: BlueBrick (18)
-  m_TagString: Untagged
+  m_TagString: Wood
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11507,7 +11529,7 @@ GameObject:
   - component: {fileID: 1556393113}
   m_Layer: 0
   m_Name: BlueBrick (19)
-  m_TagString: Untagged
+  m_TagString: Wood
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11640,7 +11662,7 @@ GameObject:
   - component: {fileID: 1586361613}
   m_Layer: 0
   m_Name: BlueBrick (20)
-  m_TagString: Untagged
+  m_TagString: Wood
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11773,7 +11795,7 @@ GameObject:
   - component: {fileID: 1607169622}
   m_Layer: 0
   m_Name: BlueBrick (13)
-  m_TagString: Untagged
+  m_TagString: Wood
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12224,7 +12246,7 @@ GameObject:
   - component: {fileID: 1636645239}
   m_Layer: 0
   m_Name: BlueBrick (23)
-  m_TagString: Untagged
+  m_TagString: Wood
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12357,7 +12379,7 @@ GameObject:
   - component: {fileID: 1651262707}
   m_Layer: 0
   m_Name: BlueBrick (30)
-  m_TagString: Untagged
+  m_TagString: Wood
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12490,7 +12512,7 @@ GameObject:
   - component: {fileID: 1652573231}
   m_Layer: 0
   m_Name: BlueBrick (29)
-  m_TagString: Untagged
+  m_TagString: Wood
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12770,7 +12792,7 @@ GameObject:
   - component: {fileID: 1680464647}
   m_Layer: 0
   m_Name: BlueBrick (5)
-  m_TagString: Untagged
+  m_TagString: Wood
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12903,7 +12925,7 @@ GameObject:
   - component: {fileID: 1691391305}
   m_Layer: 0
   m_Name: BlueBrick (25)
-  m_TagString: Untagged
+  m_TagString: Wood
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13645,7 +13667,7 @@ GameObject:
   - component: {fileID: 1771627486}
   m_Layer: 0
   m_Name: BlueBrick (35)
-  m_TagString: Untagged
+  m_TagString: Wood
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13778,7 +13800,7 @@ GameObject:
   - component: {fileID: 1785768241}
   m_Layer: 0
   m_Name: BlueBrick (17)
-  m_TagString: Untagged
+  m_TagString: Wood
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14079,7 +14101,7 @@ GameObject:
   - component: {fileID: 1847418022}
   m_Layer: 0
   m_Name: BlueBrick (34)
-  m_TagString: Untagged
+  m_TagString: Wood
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14506,7 +14528,7 @@ GameObject:
   - component: {fileID: 1920603967}
   m_Layer: 0
   m_Name: BlueBrick (7)
-  m_TagString: Untagged
+  m_TagString: Wood
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14886,7 +14908,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: a6dec449175bc4eddb9f24a5267fd049, type: 3}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
@@ -14897,7 +14919,7 @@ AudioSource:
   DopplerLevel: 1
   MinDistance: 1
   MaxDistance: 500
-  Pan2D: 0
+  Pan2D: -0.54
   rolloffMode: 0
   BypassEffects: 0
   BypassListenerEffects: 0
@@ -15132,7 +15154,7 @@ GameObject:
   - component: {fileID: 2008133660}
   m_Layer: 0
   m_Name: BlueBrick (11)
-  m_TagString: Untagged
+  m_TagString: Wood
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15265,7 +15287,7 @@ GameObject:
   - component: {fileID: 2013366707}
   m_Layer: 0
   m_Name: BlueBrick (4)
-  m_TagString: Untagged
+  m_TagString: Wood
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15398,7 +15420,7 @@ GameObject:
   - component: {fileID: 2025335924}
   m_Layer: 0
   m_Name: BlueBrick (2)
-  m_TagString: Untagged
+  m_TagString: Wood
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15657,7 +15679,7 @@ GameObject:
   - component: {fileID: 2036872073}
   m_Layer: 0
   m_Name: BlueBrick (31)
-  m_TagString: Untagged
+  m_TagString: Wood
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16084,7 +16106,7 @@ GameObject:
   - component: {fileID: 2067547481}
   m_Layer: 0
   m_Name: BlueBrick (24)
-  m_TagString: Untagged
+  m_TagString: Wood
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16217,7 +16239,7 @@ GameObject:
   - component: {fileID: 2087288915}
   m_Layer: 0
   m_Name: BlueBrick (11)
-  m_TagString: Untagged
+  m_TagString: Wood
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16497,7 +16519,7 @@ GameObject:
   - component: {fileID: 2095976469}
   m_Layer: 0
   m_Name: BlueBrick (6)
-  m_TagString: Untagged
+  m_TagString: Wood
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17071,7 +17093,7 @@ GameObject:
   - component: {fileID: 2133536435}
   m_Layer: 0
   m_Name: BlueBrick (26)
-  m_TagString: Untagged
+  m_TagString: Wood
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

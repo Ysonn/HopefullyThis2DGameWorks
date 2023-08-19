@@ -137,6 +137,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 844fdcc76100843558986af412404477, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  WoodImpact: {fileID: 8300000, guid: 67f35c592efc14c4a8529c76bb0db8d2, type: 3}
+  Whistle: {fileID: 8300000, guid: 910c94d305efb4ddba1a157cee3963db, type: 3}
 --- !u!82 &7840690609075019497
 AudioSource:
   m_ObjectHideFlags: 0
