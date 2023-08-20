@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MoveCannonBall : MonoBehaviour
+public class CannonBallManager : MonoBehaviour
 {
     public GameObject GrassParticles;
     public AudioClip WoodImpact;
