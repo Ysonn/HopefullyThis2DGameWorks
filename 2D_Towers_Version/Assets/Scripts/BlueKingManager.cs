@@ -4,12 +4,15 @@ using UnityEngine;
 
 public class BlueKingManager : MonoBehaviour
 {
+    public Sprite DeadBlueKing;
     public AudioClip KingDying;
     private AudioSource audioSource;
+    private SpriteRenderer spriteRenderer;
     // Start is called before the first frame update
     void Start()
     {
         audioSource = GetComponent<AudioSource>();
+        spriteRenderer = GetComponent<SpriteRenderer>();
     }
     
     // Update is called once per frame
@@ -23,6 +26,7 @@ public class BlueKingManager : MonoBehaviour
         if (collision.gameObject.CompareTag("Grass"))
         {
             audioSource.PlayOneShot(KingDying);
+            spriteRenderer.sprite = DeadBlueKing;
         }
         
     } 
