@@ -5,6 +5,9 @@ TagManager:
   serializedVersion: 2
   tags:
   - Wood
+  - Metal
+  - OtherMaterial
+  - Grass
   layers:
   - Default
   - TransparentFX
