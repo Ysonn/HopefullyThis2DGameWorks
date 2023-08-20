@@ -12,15 +12,10 @@ public class BlueKingManager : MonoBehaviour
         audioSource = GetComponent<AudioSource>();
     }
     
-
     // Update is called once per frame
     void Update()
     {
-        if (transform.position.x > 8.1f)
-        {
-            audioSource.PlayOneShot(KingDying);
-            audioSource.Stop();
-        }
+    
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
