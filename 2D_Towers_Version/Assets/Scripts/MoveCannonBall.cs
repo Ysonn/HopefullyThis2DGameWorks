@@ -37,7 +37,7 @@ public class MoveCannonBall : MonoBehaviour
         {
             hasCollided = true;
             audioSource.Stop();
-            audioSource.volume = 0.8f;
+            audioSource.volume = 0.6f;
             audioSource.PlayOneShot(WoodImpact);
         }
 
