@@ -5,6 +5,7 @@ using UnityEngine;
 public class BlueCannonManager: MonoBehaviour
 {
     public GameObject cannonBall;
+    public GameObject TNT;
     public GameObject blueBarrelEnd;
     public float speed = 1;
     public float RotAngleY = 45;
