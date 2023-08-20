@@ -34,5 +34,7 @@ public class TNTManager : MonoBehaviour
         audioSource.Stop();
         audioSource.volume = 1f;
         audioSource.PlayOneShot(Explosion);
+        audioSource.Stop();
+        Destroy(gameObject);
     }
 }
