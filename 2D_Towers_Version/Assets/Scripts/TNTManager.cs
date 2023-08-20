@@ -6,9 +6,11 @@ public class TNTManager : MonoBehaviour
 {
     
     public AudioClip FuseHissing;
-    public AudioClip Explosion;
+    public AudioClip ExplosionAudio;
+    public GameObject ExplosionVisual;
     private AudioSource audioSource;
     private Rigidbody2D TntRigidBody;
+    private bool hasExploded = false;
 
     // Start is called before the first frame update
     void Start()
@@ -26,15 +28,31 @@ public class TNTManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (hasExploded == true)
+        {
+            Instantiate(ExplosionVisual, transform.position, transform.rotation);
+            Destroy(gameObject);
+        }
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
         audioSource.Stop();
-        audioSource.volume = 1f;
-        audioSource.PlayOneShot(Explosion);
-        audioSource.Stop();
-        Destroy(gameObject);
+        if (hasExploded == false)
+        {
+            audioSource.volume = 1f;
+            audioSource.PlayOneShot(ExplosionAudio);
+            //StartCoroutine(ExplosionDelay());
+            hasExploded = true;
+
+        }
+        
+        
+    }
+
+    IEnumerator ExplosionDelay()
+    {
+        yield return new WaitForSeconds(0.2f);
+        hasExploded = true;
     }
 }

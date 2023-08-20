@@ -30,7 +30,7 @@ Transform:
   m_GameObject: {fileID: 8128885909929941692}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -2.070883, y: -1.9432, z: 0}
-  m_LocalScale: {x: 0.14263, y: 0.14263, z: 0.14263}
+  m_LocalScale: {x: 0.09472343, y: 0.09472343, z: 0.09472343}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -100,8 +100,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 673be0201291d4c80b807b408ae87518, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FuseHissing: {fileID: 8300000, guid: 457260e0bb0a94bfb940dcd7d0a976d3, type: 3}
-  Explosion: {fileID: 8300000, guid: 5ff823f546b52574a931e1d9b44290a6, type: 3}
+  FuseHissing: {fileID: 8300000, guid: ac57d30deb5874be8a8ab3d655775edc, type: 3}
+  ExplosionAudio: {fileID: 8300000, guid: 5ff823f546b52574a931e1d9b44290a6, type: 3}
+  ExplosionVisual: {fileID: 139366, guid: b185c1a9cf067374586d095111b15bd1, type: 3}
 --- !u!82 &4769666643118506755
 AudioSource:
   m_ObjectHideFlags: 0
@@ -232,6 +233,6 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.0027560305, y: -0.71155787}
-  m_Size: {x: 1.3396616, y: 1.7037117}
+  m_Offset: {x: -0.08475987, y: -0.5090311}
+  m_Size: {x: 0.5606208, y: 0.6836264}
   m_Direction: 0
