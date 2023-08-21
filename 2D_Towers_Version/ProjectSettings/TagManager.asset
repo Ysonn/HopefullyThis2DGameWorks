@@ -8,6 +8,7 @@ TagManager:
   - Metal
   - OtherMaterial
   - Grass
+  - Explosion
   layers:
   - Default
   - TransparentFX

@@ -27,6 +27,8 @@ public class BlueKingManager : MonoBehaviour
         {
             audioSource.PlayOneShot(KingDying);
             spriteRenderer.sprite = DeadBlueKing;
+            Destroy(gameObject, 3.0f);
+
         }
         
     } 

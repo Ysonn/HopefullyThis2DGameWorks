@@ -27,6 +27,7 @@ public class RedKingManager : MonoBehaviour
         {
             audioSource.PlayOneShot(KingDying);
             spriteRenderer.sprite = DeadRedKing;
+            Destroy(gameObject, 3.0f);
         }
         
     } 

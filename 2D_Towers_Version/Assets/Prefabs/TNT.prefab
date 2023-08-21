@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 3647564387073651584}
   m_Layer: 0
   m_Name: TNT
-  m_TagString: Untagged
+  m_TagString: Explosion
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -103,6 +103,8 @@ MonoBehaviour:
   FuseHissing: {fileID: 8300000, guid: ac57d30deb5874be8a8ab3d655775edc, type: 3}
   ExplosionAudio: {fileID: 8300000, guid: 5ff823f546b52574a931e1d9b44290a6, type: 3}
   ExplosionVisual: {fileID: 139366, guid: b185c1a9cf067374586d095111b15bd1, type: 3}
+  explosionForce: 150
+  fieldOfImpact: 50
 --- !u!82 &4769666643118506755
 AudioSource:
   m_ObjectHideFlags: 0

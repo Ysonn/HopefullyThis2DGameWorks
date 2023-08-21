@@ -8,6 +8,8 @@ public class TNTManager : MonoBehaviour
     public AudioClip FuseHissing;
     public AudioClip ExplosionAudio;
     public GameObject ExplosionVisual;
+    public float explosionForce = 5.0f;
+    public float fieldOfImpact = 5.0f;
     private AudioSource audioSource;
     private Rigidbody2D TntRigidBody;
     private bool hasExploded = false;
@@ -38,21 +40,28 @@ public class TNTManager : MonoBehaviour
     private void OnCollisionEnter2D(Collision2D collision)
     {
         audioSource.Stop();
-        if (hasExploded == false)
-        {
-            audioSource.volume = 1f;
-            audioSource.PlayOneShot(ExplosionAudio);
-            //StartCoroutine(ExplosionDelay());
-            hasExploded = true;
-
-        }
-        
-        
+        Explosion();
+        hasExploded = true;
     }
 
-    IEnumerator ExplosionDelay()
+    private void Explosion()
     {
-        yield return new WaitForSeconds(0.2f);
-        hasExploded = true;
+        Collider2D[] colliders = Physics2D.OverlapCircleAll(transform.position, fieldOfImpact);
+        foreach (Collider2D target in colliders)
+        {
+            Rigidbody2D rb = target.GetComponent<Rigidbody2D>(); 
+            if (rb != null)
+            {
+                Vector2 explosionDirection = rb.transform.position - transform.position;
+                float distance = explosionDirection.magnitude;
+
+                // Calculate explosion force based on distance
+                float explosionForceMagnitude = explosionForce / (distance + 1); // Adding 1 to prevent division by zero
+
+                // Apply the explosion force
+                rb.AddForce(explosionDirection.normalized * explosionForceMagnitude, ForceMode2D.Impulse);
+            }
+        }   
+    
     }
 }
