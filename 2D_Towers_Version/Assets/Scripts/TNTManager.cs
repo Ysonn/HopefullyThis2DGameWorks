@@ -8,6 +8,7 @@ public class TNTManager : MonoBehaviour
     public AudioClip FuseHissing;
     public AudioClip ExplosionAudio;
     public GameObject ExplosionVisual;
+    public GameObject ExplosionHitBox;
     public float explosionForce = 5.0f;
     public float fieldOfImpact = 5.0f;
     private AudioSource audioSource;
@@ -31,6 +32,7 @@ public class TNTManager : MonoBehaviour
     {
         if (hasExploded == true)
         {
+            Instantiate(ExplosionVisual, transform.position, transform.rotation);
             Instantiate(ExplosionVisual, transform.position, transform.rotation);
             Destroy(gameObject);
         }
