@@ -13571,7 +13571,7 @@ GameObject:
   - component: {fileID: 1545900297}
   m_Layer: 0
   m_Name: ExplosionHitBox
-  m_TagString: Untagged
+  m_TagString: Explosion
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13826,6 +13826,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   DeadBlueKing: {fileID: 21300000, guid: 79e6e8936a72944d6b5d625e1f88c8a7, type: 3}
   KingDying: {fileID: 8300000, guid: 0cda8252cd69f4d1c9125efad9e87008, type: 3}
+  circleCenter: {fileID: 0}
 --- !u!70 &1590770987
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
