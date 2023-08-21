@@ -18,7 +18,6 @@ public class TNTManager : MonoBehaviour
     void Start()
     {
         audioSource = GetComponent<AudioSource>();
-        audioSource.volume = 1f;
         audioSource.clip = FuseHissing;
         audioSource.Play();
         TntRigidBody = GetComponent<Rigidbody2D>();
