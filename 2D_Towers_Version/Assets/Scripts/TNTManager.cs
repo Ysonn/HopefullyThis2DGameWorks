@@ -24,7 +24,7 @@ public class TNTManager : MonoBehaviour
         TntRigidBody = GetComponent<Rigidbody2D>();
         Vector2 force = transform.right * 5f;
         TntRigidBody.AddForce(force, ForceMode2D.Impulse);
-        TntRigidBody.AddTorque(5.0f, ForceMode2D.Impulse);
+        TntRigidBody.AddTorque(20.0f, ForceMode2D.Impulse);
     }
 
     // Update is called once per frame
