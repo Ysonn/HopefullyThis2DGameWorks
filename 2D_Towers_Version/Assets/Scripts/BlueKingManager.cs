@@ -6,6 +6,7 @@ public class BlueKingManager : MonoBehaviour
 {
     public Sprite DeadBlueKing;
     public AudioClip KingDying;
+    public Transform circleCenter;
     private AudioSource audioSource;
     private SpriteRenderer spriteRenderer;
     // Start is called before the first frame update
