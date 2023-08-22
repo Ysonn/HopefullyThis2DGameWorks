@@ -34,10 +34,9 @@ public class TNTManager : MonoBehaviour
         if (hasExploded == true)
         {
             Instantiate(ExplosionVisual, transform.position, transform.rotation);
-            Instantiate(ExplosionVisual, transform.position, transform.rotation);
             spawnedExplosionHitBox = Instantiate(ExplosionHitBox, transform.position, transform.rotation);
             Destroy(gameObject);
-            Destroy (spawnedExplosionHitBox);
+            Destroy (spawnedExplosionHitBox, 0.1f);
         }
     }
 
