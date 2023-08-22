@@ -33,12 +33,15 @@ public class CannonBallManager : MonoBehaviour
     private void OnCollisionEnter2D(Collision2D collision)
     {
 
+        StartCoroutine(ChangeTagDelayed());
+        Debug.Log ("I have changed tag");
         if (collision.gameObject.CompareTag("Wood") && !hasCollided)
         {
             hasCollided = true;
             audioSource.Stop();
             audioSource.volume = 0.6f;
             audioSource.PlayOneShot(WoodImpact);
+            
         }
 
         else if (collision.gameObject.CompareTag("Metal") && !hasCollided)
@@ -47,6 +50,7 @@ public class CannonBallManager : MonoBehaviour
             audioSource.Stop();
             audioSource.volume = 0.8f;
             audioSource.PlayOneShot(MetalImpact);
+            
         }
 
         else if (collision.gameObject.CompareTag("Grass") && !hasCollided)
@@ -58,5 +62,12 @@ public class CannonBallManager : MonoBehaviour
             Instantiate(GrassParticles, transform.position, transform.rotation);
             
         }
+    }
+
+    private System.Collections.IEnumerator ChangeTagDelayed()
+    {
+        yield return new WaitForSeconds(1.0f); // Wait for 1 second
+
+        gameObject.tag = "Metal";
     }
 }

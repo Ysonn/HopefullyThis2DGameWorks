@@ -9,6 +9,7 @@ TagManager:
   - OtherMaterial
   - Grass
   - Explosion
+  - CannonBall
   layers:
   - Default
   - TransparentFX

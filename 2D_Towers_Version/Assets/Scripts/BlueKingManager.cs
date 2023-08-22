@@ -32,7 +32,7 @@ public class BlueKingManager : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.CompareTag("Grass"))
+        if (collision.gameObject.CompareTag("Explosion") || collision.gameObject.CompareTag("CannonBall") )
         {
             Die();
         }
