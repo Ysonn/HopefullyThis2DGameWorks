@@ -270,7 +270,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.602
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -516,7 +516,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.602
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -762,7 +762,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0c2d055ae51d04e84ada31ecc2f87eab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CrackedBlueBlock: {fileID: 21300000, guid: b007f5051d6444f4fb4a47aa71582546, type: 3}
+  CrackedBlueBlock: {fileID: 21300000, guid: 25e481651857f4cdfacd529108b8cce1, type: 3}
   WoodCracking: {fileID: 8300000, guid: 36c24509241894d6f82f590092b7b46a, type: 3}
   WoodBreaking: {fileID: 8300000, guid: 5ab42026d03dd4fe4ae8ebb56494fbba, type: 3}
 --- !u!82 &39133335
@@ -777,7 +777,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.602
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -1301,7 +1301,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.602
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -1547,7 +1547,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.602
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -1793,7 +1793,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.602
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -2039,7 +2039,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.602
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -2438,7 +2438,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0c2d055ae51d04e84ada31ecc2f87eab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CrackedBlueBlock: {fileID: 21300000, guid: b007f5051d6444f4fb4a47aa71582546, type: 3}
+  CrackedBlueBlock: {fileID: 21300000, guid: 25e481651857f4cdfacd529108b8cce1, type: 3}
   WoodCracking: {fileID: 8300000, guid: 36c24509241894d6f82f590092b7b46a, type: 3}
   WoodBreaking: {fileID: 8300000, guid: 5ab42026d03dd4fe4ae8ebb56494fbba, type: 3}
 --- !u!82 &167351048
@@ -2453,7 +2453,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.602
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -2684,7 +2684,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.602
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -2930,7 +2930,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0c2d055ae51d04e84ada31ecc2f87eab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CrackedBlueBlock: {fileID: 21300000, guid: b007f5051d6444f4fb4a47aa71582546, type: 3}
+  CrackedBlueBlock: {fileID: 21300000, guid: 25e481651857f4cdfacd529108b8cce1, type: 3}
   WoodCracking: {fileID: 8300000, guid: 36c24509241894d6f82f590092b7b46a, type: 3}
   WoodBreaking: {fileID: 8300000, guid: 5ab42026d03dd4fe4ae8ebb56494fbba, type: 3}
 --- !u!82 &173540905
@@ -2945,7 +2945,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.602
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -3176,7 +3176,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.602
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -3422,7 +3422,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.602
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -3821,7 +3821,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0c2d055ae51d04e84ada31ecc2f87eab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CrackedBlueBlock: {fileID: 21300000, guid: b007f5051d6444f4fb4a47aa71582546, type: 3}
+  CrackedBlueBlock: {fileID: 21300000, guid: 25e481651857f4cdfacd529108b8cce1, type: 3}
   WoodCracking: {fileID: 8300000, guid: 36c24509241894d6f82f590092b7b46a, type: 3}
   WoodBreaking: {fileID: 8300000, guid: 5ab42026d03dd4fe4ae8ebb56494fbba, type: 3}
 --- !u!82 &229248128
@@ -3836,7 +3836,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.602
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -4067,7 +4067,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0c2d055ae51d04e84ada31ecc2f87eab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CrackedBlueBlock: {fileID: 21300000, guid: b007f5051d6444f4fb4a47aa71582546, type: 3}
+  CrackedBlueBlock: {fileID: 21300000, guid: 25e481651857f4cdfacd529108b8cce1, type: 3}
   WoodCracking: {fileID: 8300000, guid: 36c24509241894d6f82f590092b7b46a, type: 3}
   WoodBreaking: {fileID: 8300000, guid: 5ab42026d03dd4fe4ae8ebb56494fbba, type: 3}
 --- !u!82 &230189523
@@ -4082,7 +4082,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.602
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -4313,7 +4313,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.602
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -4559,7 +4559,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0c2d055ae51d04e84ada31ecc2f87eab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CrackedBlueBlock: {fileID: 21300000, guid: b007f5051d6444f4fb4a47aa71582546, type: 3}
+  CrackedBlueBlock: {fileID: 21300000, guid: 25e481651857f4cdfacd529108b8cce1, type: 3}
   WoodCracking: {fileID: 8300000, guid: 36c24509241894d6f82f590092b7b46a, type: 3}
   WoodBreaking: {fileID: 8300000, guid: 5ab42026d03dd4fe4ae8ebb56494fbba, type: 3}
 --- !u!82 &237633433
@@ -4574,7 +4574,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.602
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -4805,7 +4805,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0c2d055ae51d04e84ada31ecc2f87eab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CrackedBlueBlock: {fileID: 21300000, guid: b007f5051d6444f4fb4a47aa71582546, type: 3}
+  CrackedBlueBlock: {fileID: 21300000, guid: 25e481651857f4cdfacd529108b8cce1, type: 3}
   WoodCracking: {fileID: 8300000, guid: 36c24509241894d6f82f590092b7b46a, type: 3}
   WoodBreaking: {fileID: 8300000, guid: 5ab42026d03dd4fe4ae8ebb56494fbba, type: 3}
 --- !u!82 &242549366
@@ -4820,7 +4820,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.602
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -5204,7 +5204,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0c2d055ae51d04e84ada31ecc2f87eab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CrackedBlueBlock: {fileID: 21300000, guid: b007f5051d6444f4fb4a47aa71582546, type: 3}
+  CrackedBlueBlock: {fileID: 21300000, guid: 25e481651857f4cdfacd529108b8cce1, type: 3}
   WoodCracking: {fileID: 8300000, guid: 36c24509241894d6f82f590092b7b46a, type: 3}
   WoodBreaking: {fileID: 8300000, guid: 5ab42026d03dd4fe4ae8ebb56494fbba, type: 3}
 --- !u!82 &270189507
@@ -5219,7 +5219,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.602
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -5583,7 +5583,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0c2d055ae51d04e84ada31ecc2f87eab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CrackedBlueBlock: {fileID: 21300000, guid: b007f5051d6444f4fb4a47aa71582546, type: 3}
+  CrackedBlueBlock: {fileID: 21300000, guid: 25e481651857f4cdfacd529108b8cce1, type: 3}
   WoodCracking: {fileID: 8300000, guid: 36c24509241894d6f82f590092b7b46a, type: 3}
   WoodBreaking: {fileID: 8300000, guid: 5ab42026d03dd4fe4ae8ebb56494fbba, type: 3}
 --- !u!82 &290557239
@@ -5598,7 +5598,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.602
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -5982,7 +5982,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0c2d055ae51d04e84ada31ecc2f87eab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CrackedBlueBlock: {fileID: 21300000, guid: b007f5051d6444f4fb4a47aa71582546, type: 3}
+  CrackedBlueBlock: {fileID: 21300000, guid: 25e481651857f4cdfacd529108b8cce1, type: 3}
   WoodCracking: {fileID: 8300000, guid: 36c24509241894d6f82f590092b7b46a, type: 3}
   WoodBreaking: {fileID: 8300000, guid: 5ab42026d03dd4fe4ae8ebb56494fbba, type: 3}
 --- !u!82 &341044176
@@ -5997,7 +5997,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.602
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -6300,7 +6300,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.602
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -6546,7 +6546,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0c2d055ae51d04e84ada31ecc2f87eab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CrackedBlueBlock: {fileID: 21300000, guid: b007f5051d6444f4fb4a47aa71582546, type: 3}
+  CrackedBlueBlock: {fileID: 21300000, guid: 25e481651857f4cdfacd529108b8cce1, type: 3}
   WoodCracking: {fileID: 8300000, guid: 36c24509241894d6f82f590092b7b46a, type: 3}
   WoodBreaking: {fileID: 8300000, guid: 5ab42026d03dd4fe4ae8ebb56494fbba, type: 3}
 --- !u!82 &361648573
@@ -6561,7 +6561,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.602
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -6945,7 +6945,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.602
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -7191,7 +7191,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0c2d055ae51d04e84ada31ecc2f87eab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CrackedBlueBlock: {fileID: 21300000, guid: b007f5051d6444f4fb4a47aa71582546, type: 3}
+  CrackedBlueBlock: {fileID: 21300000, guid: 25e481651857f4cdfacd529108b8cce1, type: 3}
   WoodCracking: {fileID: 8300000, guid: 36c24509241894d6f82f590092b7b46a, type: 3}
   WoodBreaking: {fileID: 8300000, guid: 5ab42026d03dd4fe4ae8ebb56494fbba, type: 3}
 --- !u!82 &394082814
@@ -7206,7 +7206,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.602
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -7437,7 +7437,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.602
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -7836,7 +7836,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0c2d055ae51d04e84ada31ecc2f87eab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CrackedBlueBlock: {fileID: 21300000, guid: b007f5051d6444f4fb4a47aa71582546, type: 3}
+  CrackedBlueBlock: {fileID: 21300000, guid: 25e481651857f4cdfacd529108b8cce1, type: 3}
   WoodCracking: {fileID: 8300000, guid: 36c24509241894d6f82f590092b7b46a, type: 3}
   WoodBreaking: {fileID: 8300000, guid: 5ab42026d03dd4fe4ae8ebb56494fbba, type: 3}
 --- !u!82 &460391406
@@ -7851,7 +7851,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.602
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -8235,7 +8235,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0c2d055ae51d04e84ada31ecc2f87eab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CrackedBlueBlock: {fileID: 21300000, guid: b007f5051d6444f4fb4a47aa71582546, type: 3}
+  CrackedBlueBlock: {fileID: 21300000, guid: 25e481651857f4cdfacd529108b8cce1, type: 3}
   WoodCracking: {fileID: 8300000, guid: 36c24509241894d6f82f590092b7b46a, type: 3}
   WoodBreaking: {fileID: 8300000, guid: 5ab42026d03dd4fe4ae8ebb56494fbba, type: 3}
 --- !u!82 &479794635
@@ -8250,7 +8250,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.602
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -8662,7 +8662,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.602
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -8908,7 +8908,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.602
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -9154,7 +9154,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.602
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -9400,7 +9400,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0c2d055ae51d04e84ada31ecc2f87eab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CrackedBlueBlock: {fileID: 21300000, guid: b007f5051d6444f4fb4a47aa71582546, type: 3}
+  CrackedBlueBlock: {fileID: 21300000, guid: 25e481651857f4cdfacd529108b8cce1, type: 3}
   WoodCracking: {fileID: 8300000, guid: 36c24509241894d6f82f590092b7b46a, type: 3}
   WoodBreaking: {fileID: 8300000, guid: 5ab42026d03dd4fe4ae8ebb56494fbba, type: 3}
 --- !u!82 &613090640
@@ -9415,7 +9415,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.602
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -9646,7 +9646,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.602
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -10351,7 +10351,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0c2d055ae51d04e84ada31ecc2f87eab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CrackedBlueBlock: {fileID: 21300000, guid: b007f5051d6444f4fb4a47aa71582546, type: 3}
+  CrackedBlueBlock: {fileID: 21300000, guid: 25e481651857f4cdfacd529108b8cce1, type: 3}
   WoodCracking: {fileID: 8300000, guid: 36c24509241894d6f82f590092b7b46a, type: 3}
   WoodBreaking: {fileID: 8300000, guid: 5ab42026d03dd4fe4ae8ebb56494fbba, type: 3}
 --- !u!82 &698000665
@@ -10366,7 +10366,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.602
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -10597,7 +10597,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.602
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -10969,7 +10969,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0c2d055ae51d04e84ada31ecc2f87eab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CrackedBlueBlock: {fileID: 21300000, guid: b007f5051d6444f4fb4a47aa71582546, type: 3}
+  CrackedBlueBlock: {fileID: 21300000, guid: 25e481651857f4cdfacd529108b8cce1, type: 3}
   WoodCracking: {fileID: 8300000, guid: 36c24509241894d6f82f590092b7b46a, type: 3}
   WoodBreaking: {fileID: 8300000, guid: 5ab42026d03dd4fe4ae8ebb56494fbba, type: 3}
 --- !u!82 &728426819
@@ -10984,7 +10984,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.602
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -11215,7 +11215,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.602
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -11851,7 +11851,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0c2d055ae51d04e84ada31ecc2f87eab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CrackedBlueBlock: {fileID: 21300000, guid: b007f5051d6444f4fb4a47aa71582546, type: 3}
+  CrackedBlueBlock: {fileID: 21300000, guid: 25e481651857f4cdfacd529108b8cce1, type: 3}
   WoodCracking: {fileID: 8300000, guid: 36c24509241894d6f82f590092b7b46a, type: 3}
   WoodBreaking: {fileID: 8300000, guid: 5ab42026d03dd4fe4ae8ebb56494fbba, type: 3}
 --- !u!82 &800796953
@@ -11866,7 +11866,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.602
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -12097,7 +12097,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.602
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -12384,7 +12384,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.602
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -12630,7 +12630,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0c2d055ae51d04e84ada31ecc2f87eab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CrackedBlueBlock: {fileID: 21300000, guid: b007f5051d6444f4fb4a47aa71582546, type: 3}
+  CrackedBlueBlock: {fileID: 21300000, guid: 25e481651857f4cdfacd529108b8cce1, type: 3}
   WoodCracking: {fileID: 8300000, guid: 36c24509241894d6f82f590092b7b46a, type: 3}
   WoodBreaking: {fileID: 8300000, guid: 5ab42026d03dd4fe4ae8ebb56494fbba, type: 3}
 --- !u!82 &876136854
@@ -12645,7 +12645,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.602
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -13552,7 +13552,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0c2d055ae51d04e84ada31ecc2f87eab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CrackedBlueBlock: {fileID: 21300000, guid: b007f5051d6444f4fb4a47aa71582546, type: 3}
+  CrackedBlueBlock: {fileID: 21300000, guid: 25e481651857f4cdfacd529108b8cce1, type: 3}
   WoodCracking: {fileID: 8300000, guid: 36c24509241894d6f82f590092b7b46a, type: 3}
   WoodBreaking: {fileID: 8300000, guid: 5ab42026d03dd4fe4ae8ebb56494fbba, type: 3}
 --- !u!82 &916343123
@@ -13567,7 +13567,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.602
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -13839,7 +13839,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.602
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -14085,7 +14085,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.602
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -14484,7 +14484,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0c2d055ae51d04e84ada31ecc2f87eab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CrackedBlueBlock: {fileID: 21300000, guid: b007f5051d6444f4fb4a47aa71582546, type: 3}
+  CrackedBlueBlock: {fileID: 21300000, guid: 25e481651857f4cdfacd529108b8cce1, type: 3}
   WoodCracking: {fileID: 8300000, guid: 36c24509241894d6f82f590092b7b46a, type: 3}
   WoodBreaking: {fileID: 8300000, guid: 5ab42026d03dd4fe4ae8ebb56494fbba, type: 3}
 --- !u!82 &980062476
@@ -14499,7 +14499,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.602
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -14730,7 +14730,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0c2d055ae51d04e84ada31ecc2f87eab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CrackedBlueBlock: {fileID: 21300000, guid: b007f5051d6444f4fb4a47aa71582546, type: 3}
+  CrackedBlueBlock: {fileID: 21300000, guid: 25e481651857f4cdfacd529108b8cce1, type: 3}
   WoodCracking: {fileID: 8300000, guid: 36c24509241894d6f82f590092b7b46a, type: 3}
   WoodBreaking: {fileID: 8300000, guid: 5ab42026d03dd4fe4ae8ebb56494fbba, type: 3}
 --- !u!82 &1004547582
@@ -14745,7 +14745,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.602
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -14976,7 +14976,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0c2d055ae51d04e84ada31ecc2f87eab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CrackedBlueBlock: {fileID: 21300000, guid: b007f5051d6444f4fb4a47aa71582546, type: 3}
+  CrackedBlueBlock: {fileID: 21300000, guid: 25e481651857f4cdfacd529108b8cce1, type: 3}
   WoodCracking: {fileID: 8300000, guid: 36c24509241894d6f82f590092b7b46a, type: 3}
   WoodBreaking: {fileID: 8300000, guid: 5ab42026d03dd4fe4ae8ebb56494fbba, type: 3}
 --- !u!82 &1005794213
@@ -14991,7 +14991,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.602
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -15375,7 +15375,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.602
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -15805,7 +15805,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0c2d055ae51d04e84ada31ecc2f87eab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CrackedBlueBlock: {fileID: 21300000, guid: b007f5051d6444f4fb4a47aa71582546, type: 3}
+  CrackedBlueBlock: {fileID: 21300000, guid: 25e481651857f4cdfacd529108b8cce1, type: 3}
   WoodCracking: {fileID: 8300000, guid: 36c24509241894d6f82f590092b7b46a, type: 3}
   WoodBreaking: {fileID: 8300000, guid: 5ab42026d03dd4fe4ae8ebb56494fbba, type: 3}
 --- !u!82 &1130879278
@@ -15820,7 +15820,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.602
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -16051,7 +16051,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.602
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -16297,7 +16297,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.602
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -16543,7 +16543,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0c2d055ae51d04e84ada31ecc2f87eab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CrackedBlueBlock: {fileID: 21300000, guid: b007f5051d6444f4fb4a47aa71582546, type: 3}
+  CrackedBlueBlock: {fileID: 21300000, guid: 25e481651857f4cdfacd529108b8cce1, type: 3}
   WoodCracking: {fileID: 8300000, guid: 36c24509241894d6f82f590092b7b46a, type: 3}
   WoodBreaking: {fileID: 8300000, guid: 5ab42026d03dd4fe4ae8ebb56494fbba, type: 3}
 --- !u!82 &1176925732
@@ -16558,7 +16558,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.602
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -17401,7 +17401,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0c2d055ae51d04e84ada31ecc2f87eab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CrackedBlueBlock: {fileID: 21300000, guid: b007f5051d6444f4fb4a47aa71582546, type: 3}
+  CrackedBlueBlock: {fileID: 21300000, guid: 25e481651857f4cdfacd529108b8cce1, type: 3}
   WoodCracking: {fileID: 8300000, guid: 36c24509241894d6f82f590092b7b46a, type: 3}
   WoodBreaking: {fileID: 8300000, guid: 5ab42026d03dd4fe4ae8ebb56494fbba, type: 3}
 --- !u!82 &1215081368
@@ -17416,7 +17416,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.602
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -17647,7 +17647,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0c2d055ae51d04e84ada31ecc2f87eab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CrackedBlueBlock: {fileID: 21300000, guid: b007f5051d6444f4fb4a47aa71582546, type: 3}
+  CrackedBlueBlock: {fileID: 21300000, guid: 25e481651857f4cdfacd529108b8cce1, type: 3}
   WoodCracking: {fileID: 8300000, guid: 36c24509241894d6f82f590092b7b46a, type: 3}
   WoodBreaking: {fileID: 8300000, guid: 5ab42026d03dd4fe4ae8ebb56494fbba, type: 3}
 --- !u!82 &1240709492
@@ -17662,7 +17662,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.602
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -17893,7 +17893,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0c2d055ae51d04e84ada31ecc2f87eab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CrackedBlueBlock: {fileID: 21300000, guid: b007f5051d6444f4fb4a47aa71582546, type: 3}
+  CrackedBlueBlock: {fileID: 21300000, guid: 25e481651857f4cdfacd529108b8cce1, type: 3}
   WoodCracking: {fileID: 8300000, guid: 36c24509241894d6f82f590092b7b46a, type: 3}
   WoodBreaking: {fileID: 8300000, guid: 5ab42026d03dd4fe4ae8ebb56494fbba, type: 3}
 --- !u!82 &1244141282
@@ -17908,7 +17908,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.602
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -18139,7 +18139,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.602
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -18385,7 +18385,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0c2d055ae51d04e84ada31ecc2f87eab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CrackedBlueBlock: {fileID: 21300000, guid: b007f5051d6444f4fb4a47aa71582546, type: 3}
+  CrackedBlueBlock: {fileID: 21300000, guid: 25e481651857f4cdfacd529108b8cce1, type: 3}
   WoodCracking: {fileID: 8300000, guid: 36c24509241894d6f82f590092b7b46a, type: 3}
   WoodBreaking: {fileID: 8300000, guid: 5ab42026d03dd4fe4ae8ebb56494fbba, type: 3}
 --- !u!82 &1272052113
@@ -18400,7 +18400,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.602
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -19039,7 +19039,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0c2d055ae51d04e84ada31ecc2f87eab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CrackedBlueBlock: {fileID: 21300000, guid: b007f5051d6444f4fb4a47aa71582546, type: 3}
+  CrackedBlueBlock: {fileID: 21300000, guid: 25e481651857f4cdfacd529108b8cce1, type: 3}
   WoodCracking: {fileID: 8300000, guid: 36c24509241894d6f82f590092b7b46a, type: 3}
   WoodBreaking: {fileID: 8300000, guid: 5ab42026d03dd4fe4ae8ebb56494fbba, type: 3}
 --- !u!82 &1388366068
@@ -19054,7 +19054,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.602
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -19438,7 +19438,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.602
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -19684,7 +19684,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0c2d055ae51d04e84ada31ecc2f87eab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CrackedBlueBlock: {fileID: 21300000, guid: b007f5051d6444f4fb4a47aa71582546, type: 3}
+  CrackedBlueBlock: {fileID: 21300000, guid: 25e481651857f4cdfacd529108b8cce1, type: 3}
   WoodCracking: {fileID: 8300000, guid: 36c24509241894d6f82f590092b7b46a, type: 3}
   WoodBreaking: {fileID: 8300000, guid: 5ab42026d03dd4fe4ae8ebb56494fbba, type: 3}
 --- !u!82 &1439124410
@@ -19699,7 +19699,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.602
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -20083,7 +20083,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.602
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -20329,7 +20329,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0c2d055ae51d04e84ada31ecc2f87eab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CrackedBlueBlock: {fileID: 21300000, guid: b007f5051d6444f4fb4a47aa71582546, type: 3}
+  CrackedBlueBlock: {fileID: 21300000, guid: 25e481651857f4cdfacd529108b8cce1, type: 3}
   WoodCracking: {fileID: 8300000, guid: 36c24509241894d6f82f590092b7b46a, type: 3}
   WoodBreaking: {fileID: 8300000, guid: 5ab42026d03dd4fe4ae8ebb56494fbba, type: 3}
 --- !u!82 &1455016935
@@ -20344,7 +20344,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.602
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -20728,7 +20728,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.602
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -21127,7 +21127,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.602
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -21644,7 +21644,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.602
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -22073,7 +22073,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0c2d055ae51d04e84ada31ecc2f87eab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CrackedBlueBlock: {fileID: 21300000, guid: b007f5051d6444f4fb4a47aa71582546, type: 3}
+  CrackedBlueBlock: {fileID: 21300000, guid: 25e481651857f4cdfacd529108b8cce1, type: 3}
   WoodCracking: {fileID: 8300000, guid: 36c24509241894d6f82f590092b7b46a, type: 3}
   WoodBreaking: {fileID: 8300000, guid: 5ab42026d03dd4fe4ae8ebb56494fbba, type: 3}
 --- !u!82 &1625019893
@@ -22088,7 +22088,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.602
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -22319,7 +22319,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.602
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -22565,7 +22565,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.602
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -22852,7 +22852,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.602
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -23251,7 +23251,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0c2d055ae51d04e84ada31ecc2f87eab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CrackedBlueBlock: {fileID: 21300000, guid: b007f5051d6444f4fb4a47aa71582546, type: 3}
+  CrackedBlueBlock: {fileID: 21300000, guid: 25e481651857f4cdfacd529108b8cce1, type: 3}
   WoodCracking: {fileID: 8300000, guid: 36c24509241894d6f82f590092b7b46a, type: 3}
   WoodBreaking: {fileID: 8300000, guid: 5ab42026d03dd4fe4ae8ebb56494fbba, type: 3}
 --- !u!82 &1720516242
@@ -23266,7 +23266,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.602
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -23497,7 +23497,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.602
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -23896,7 +23896,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0c2d055ae51d04e84ada31ecc2f87eab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CrackedBlueBlock: {fileID: 21300000, guid: b007f5051d6444f4fb4a47aa71582546, type: 3}
+  CrackedBlueBlock: {fileID: 21300000, guid: 25e481651857f4cdfacd529108b8cce1, type: 3}
   WoodCracking: {fileID: 8300000, guid: 36c24509241894d6f82f590092b7b46a, type: 3}
   WoodBreaking: {fileID: 8300000, guid: 5ab42026d03dd4fe4ae8ebb56494fbba, type: 3}
 --- !u!82 &1769605240
@@ -23911,7 +23911,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.602
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -24295,7 +24295,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.602
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -24847,7 +24847,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.602
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -25093,7 +25093,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0c2d055ae51d04e84ada31ecc2f87eab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CrackedBlueBlock: {fileID: 21300000, guid: b007f5051d6444f4fb4a47aa71582546, type: 3}
+  CrackedBlueBlock: {fileID: 21300000, guid: 25e481651857f4cdfacd529108b8cce1, type: 3}
   WoodCracking: {fileID: 8300000, guid: 36c24509241894d6f82f590092b7b46a, type: 3}
   WoodBreaking: {fileID: 8300000, guid: 5ab42026d03dd4fe4ae8ebb56494fbba, type: 3}
 --- !u!82 &1837782354
@@ -25108,7 +25108,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.602
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -25450,7 +25450,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.602
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -25696,7 +25696,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.602
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -26182,7 +26182,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0c2d055ae51d04e84ada31ecc2f87eab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CrackedBlueBlock: {fileID: 21300000, guid: b007f5051d6444f4fb4a47aa71582546, type: 3}
+  CrackedBlueBlock: {fileID: 21300000, guid: 25e481651857f4cdfacd529108b8cce1, type: 3}
   WoodCracking: {fileID: 8300000, guid: 36c24509241894d6f82f590092b7b46a, type: 3}
   WoodBreaking: {fileID: 8300000, guid: 5ab42026d03dd4fe4ae8ebb56494fbba, type: 3}
 --- !u!82 &1951561798
@@ -26197,7 +26197,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.602
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -26581,7 +26581,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0c2d055ae51d04e84ada31ecc2f87eab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CrackedBlueBlock: {fileID: 21300000, guid: b007f5051d6444f4fb4a47aa71582546, type: 3}
+  CrackedBlueBlock: {fileID: 21300000, guid: 25e481651857f4cdfacd529108b8cce1, type: 3}
   WoodCracking: {fileID: 8300000, guid: 36c24509241894d6f82f590092b7b46a, type: 3}
   WoodBreaking: {fileID: 8300000, guid: 5ab42026d03dd4fe4ae8ebb56494fbba, type: 3}
 --- !u!82 &1974934809
@@ -26596,7 +26596,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.602
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -26827,7 +26827,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0c2d055ae51d04e84ada31ecc2f87eab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CrackedBlueBlock: {fileID: 21300000, guid: b007f5051d6444f4fb4a47aa71582546, type: 3}
+  CrackedBlueBlock: {fileID: 21300000, guid: 25e481651857f4cdfacd529108b8cce1, type: 3}
   WoodCracking: {fileID: 8300000, guid: 36c24509241894d6f82f590092b7b46a, type: 3}
   WoodBreaking: {fileID: 8300000, guid: 5ab42026d03dd4fe4ae8ebb56494fbba, type: 3}
 --- !u!82 &1990622179
@@ -26842,7 +26842,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.602
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -27769,7 +27769,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.602
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -28015,7 +28015,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0c2d055ae51d04e84ada31ecc2f87eab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CrackedBlueBlock: {fileID: 21300000, guid: b007f5051d6444f4fb4a47aa71582546, type: 3}
+  CrackedBlueBlock: {fileID: 21300000, guid: 25e481651857f4cdfacd529108b8cce1, type: 3}
   WoodCracking: {fileID: 8300000, guid: 36c24509241894d6f82f590092b7b46a, type: 3}
   WoodBreaking: {fileID: 8300000, guid: 5ab42026d03dd4fe4ae8ebb56494fbba, type: 3}
 --- !u!82 &2080242702
@@ -28030,7 +28030,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.602
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -29027,7 +29027,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0c2d055ae51d04e84ada31ecc2f87eab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CrackedBlueBlock: {fileID: 21300000, guid: b007f5051d6444f4fb4a47aa71582546, type: 3}
+  CrackedBlueBlock: {fileID: 21300000, guid: 25e481651857f4cdfacd529108b8cce1, type: 3}
   WoodCracking: {fileID: 8300000, guid: 36c24509241894d6f82f590092b7b46a, type: 3}
   WoodBreaking: {fileID: 8300000, guid: 5ab42026d03dd4fe4ae8ebb56494fbba, type: 3}
 --- !u!82 &2145246402
@@ -29042,7 +29042,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.602
   m_Pitch: 1
   Loop: 0
   Mute: 0
