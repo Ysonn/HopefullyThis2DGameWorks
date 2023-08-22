@@ -66,7 +66,7 @@ public class CannonBallManager : MonoBehaviour
 
     private System.Collections.IEnumerator ChangeTagDelayed()
     {
-        yield return new WaitForSeconds(1.0f); // Wait for 1 second
+        yield return new WaitForSeconds(0.3f); // Wait for 1 second
 
         gameObject.tag = "Metal";
     }
