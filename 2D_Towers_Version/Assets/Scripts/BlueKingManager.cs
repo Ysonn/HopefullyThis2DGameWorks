@@ -6,7 +6,8 @@ public class BlueKingManager : MonoBehaviour
 {
     public Sprite DeadBlueKing;
     public AudioClip KingDying;
-    public Transform circleCenter;
+    public Transform ExplosionHitBoxCenter;
+    public float ExplosionHitBoxRadius;
     private AudioSource audioSource;
     private SpriteRenderer spriteRenderer;
     // Start is called before the first frame update
@@ -19,19 +20,30 @@ public class BlueKingManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-    
+        float distance = Vector2.Distance(transform.position, ExplosionHitBoxCenter.position);
+
+        if (distance <= ExplosionHitBoxRadius)
+        {
+            Die();
+        }
+
+
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("Grass"))
         {
-            audioSource.PlayOneShot(KingDying);
-            spriteRenderer.sprite = DeadBlueKing;
-            Destroy(gameObject, 3.0f);
-
+            Die();
         }
         
     } 
+
+    private void Die()
+    {
+        audioSource.PlayOneShot(KingDying);
+        spriteRenderer.sprite = DeadBlueKing;
+        Destroy(gameObject, 3.0f);
+    }
 }
 

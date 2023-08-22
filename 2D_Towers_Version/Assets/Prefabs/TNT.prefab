@@ -103,6 +103,7 @@ MonoBehaviour:
   FuseHissing: {fileID: 8300000, guid: ac57d30deb5874be8a8ab3d655775edc, type: 3}
   ExplosionAudio: {fileID: 8300000, guid: 5ff823f546b52574a931e1d9b44290a6, type: 3}
   ExplosionVisual: {fileID: 139366, guid: b185c1a9cf067374586d095111b15bd1, type: 3}
+  ExplosionHitBox: {fileID: 4628817768497307729, guid: 85bcbf88496d0428cbe982b77333ab92, type: 3}
   explosionForce: 5
   fieldOfImpact: 3
 --- !u!82 &4769666643118506755
@@ -218,9 +219,9 @@ Rigidbody2D:
   m_AngularDrag: 0.05
   m_GravityScale: 1
   m_Material: {fileID: 0}
-  m_Interpolate: 0
+  m_Interpolate: 2
   m_SleepingMode: 1
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
   m_Constraints: 0
 --- !u!70 &3647564387073651584
 CapsuleCollider2D:

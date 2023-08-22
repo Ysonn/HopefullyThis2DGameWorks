@@ -3,7 +3,11 @@ guid: 673be0201291d4c80b807b408ae87518
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - FuseHissing: {instanceID: 0}
+  - ExplosionAudio: {instanceID: 0}
+  - ExplosionVisual: {fileID: 139366, guid: b185c1a9cf067374586d095111b15bd1, type: 3}
+  - ExplosionHitBox: {fileID: 4628817768497307729, guid: 85bcbf88496d0428cbe982b77333ab92, type: 3}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

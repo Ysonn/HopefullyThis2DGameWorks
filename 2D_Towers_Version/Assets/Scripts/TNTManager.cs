@@ -12,6 +12,7 @@ public class TNTManager : MonoBehaviour
     public float explosionForce = 5.0f;
     public float fieldOfImpact = 5.0f;
     private AudioSource audioSource;
+    private GameObject spawnedExplosionHitBox;
     private Rigidbody2D TntRigidBody;
     private bool hasExploded = false;
 
@@ -34,7 +35,9 @@ public class TNTManager : MonoBehaviour
         {
             Instantiate(ExplosionVisual, transform.position, transform.rotation);
             Instantiate(ExplosionVisual, transform.position, transform.rotation);
+            spawnedExplosionHitBox = Instantiate(ExplosionHitBox, transform.position, transform.rotation);
             Destroy(gameObject);
+            Destroy (spawnedExplosionHitBox);
         }
     }
 
@@ -47,6 +50,7 @@ public class TNTManager : MonoBehaviour
 
     private void Explosion()
     {
+
         Collider2D[] colliders = Physics2D.OverlapCircleAll(transform.position, fieldOfImpact);
         foreach (Collider2D target in colliders)
         {
