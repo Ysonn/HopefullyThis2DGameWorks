@@ -22,6 +22,7 @@ public class CannonBallManager : MonoBehaviour
         cannonBallRigidBody2D = GetComponent<Rigidbody2D>();
         Vector2 force = transform.right * 5f;
         cannonBallRigidBody2D.AddForce(force, ForceMode2D.Impulse);
+        Destroy(gameObject, 10.0f);
     }
 
     // Update is called once per frame
@@ -66,7 +67,7 @@ public class CannonBallManager : MonoBehaviour
 
     private System.Collections.IEnumerator ChangeTagDelayed()
     {
-        yield return new WaitForSeconds(0.3f); // Wait for 1 second
+        yield return new WaitForSeconds(0.1f); // Wait for 1 second
 
         gameObject.tag = "Metal";
     }
