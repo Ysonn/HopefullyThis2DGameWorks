@@ -24,12 +24,14 @@ public class PowerUpManager : MonoBehaviour
         if (collision.gameObject.CompareTag("BlueCannonBall"))
         {
             whoHasPowerUp = 1;
+            Debug.log("Blue has powerUp")
             Destroy(gameObject);
         }
 
         if (collision.gameObject.CompareTag("RedCannonBall"))
         {
             whoHasPowerUp = 2;
+            Debug.log("Red has powerUp")
             Destroy(gameObject);
         }
     }
