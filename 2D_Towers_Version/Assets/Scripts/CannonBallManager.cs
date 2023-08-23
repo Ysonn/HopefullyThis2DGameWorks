@@ -23,7 +23,7 @@ public class CannonBallManager : MonoBehaviour
         cannonBallRigidBody2D = GetComponent<Rigidbody2D>();
         Vector2 force = transform.right * 5f;
         cannonBallRigidBody2D.AddForce(force, ForceMode2D.Impulse);
-        Destroy(gameObject, 10.0f);
+        Destroy(gameObject, 5.0f);
     }
 
     // Update is called once per frame

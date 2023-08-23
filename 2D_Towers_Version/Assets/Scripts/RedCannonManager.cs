@@ -23,7 +23,7 @@ public class RedCannonManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (PowerUpManager.whoHasPowerUp == 1)
+        if (PowerUpManager.whoHasPowerUp == 2)
         {
             hasPowerUp = true;
         }
@@ -31,7 +31,17 @@ public class RedCannonManager : MonoBehaviour
         float rotationZ = Mathf.SmoothStep(-45, RotAngleY, Mathf.PingPong(Time.time * speed, 1));
         transform.rotation = Quaternion.Euler(0, 0, rotationZ);
 
-        if (Input.GetKeyDown(KeyCode.LeftShift) && canShoot)
+        if (Input.GetKeyDown(KeyCode.LeftShift) && canShoot && (hasPowerUp == true))
+        {
+            GameObject spawnedCannonBall = Instantiate(TNT, redBarrelEnd.transform.position, transform.rotation);
+            rb.AddForce( -transform.right * 4.0f , ForceMode2D.Impulse);
+            hasPowerUp = false;
+            PowerUpManager.whoHasPowerUp = 0;
+            audioSource.Play();
+            StartCoroutine(FireDelay());
+        }       
+
+        else if (Input.GetKeyDown(KeyCode.LeftShift) && canShoot)
         {
             GameObject spawnedCannonBall = Instantiate(cannonBall, redBarrelEnd.transform.position, transform.rotation);
             rb.AddForce( -transform.right * 4.0f , ForceMode2D.Impulse);
@@ -40,20 +50,13 @@ public class RedCannonManager : MonoBehaviour
             StartCoroutine(FireDelay());
         }     
 
-        if (Input.GetKeyDown(KeyCode.LeftShift) && canShoot && (hasPowerUp == true))
-        {
-            GameObject spawnedCannonBall = Instantiate(TNT, redBarrelEnd.transform.position, transform.rotation);
-            rb.AddForce( -transform.right * 4.0f , ForceMode2D.Impulse);
-            audioSource.Play();
-            StartCoroutine(FireDelay());
-        }       
+        
     }  
 
     IEnumerator FireDelay()
     {
         canShoot = false;
         yield return new WaitForSeconds(0.2f);
-        PowerUpManager.whoHasPowerUp = 0;
         canShoot = true;
     }
 }

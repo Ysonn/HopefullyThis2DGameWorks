@@ -31,7 +31,17 @@ public class BlueCannonManager: MonoBehaviour
         float rotationZ = Mathf.SmoothStep(-45, RotAngleY, Mathf.PingPong(Time.time * speed, 1));
         transform.rotation = Quaternion.Euler(0, 180, rotationZ);
 
-        if (Input.GetKeyDown(KeyCode.RightShift) && canShoot)
+        if (Input.GetKeyDown(KeyCode.RightShift) && canShoot && (hasPowerUp == true))
+        {
+            GameObject spawnedCannonBall = Instantiate(TNT, blueBarrelEnd.transform.position, transform.rotation);
+            rb.AddForce(transform.right * 4.0f , ForceMode2D.Impulse);
+            hasPowerUp = false;
+            PowerUpManager.whoHasPowerUp = 0;
+            audioSource.Play();
+            StartCoroutine(FireDelay());
+        }       
+
+        else if (Input.GetKeyDown(KeyCode.RightShift) && canShoot)
         {
             GameObject spawnedCannonBall = Instantiate(cannonBall, blueBarrelEnd.transform.position, transform.rotation);
             rb.AddForce(transform.right * -4.0f , ForceMode2D.Impulse);
@@ -40,20 +50,12 @@ public class BlueCannonManager: MonoBehaviour
             StartCoroutine(FireDelay());
         }        
 
-        if (Input.GetKeyDown(KeyCode.RightShift) && canShoot && (hasPowerUp == true))
-        {
-            GameObject spawnedCannonBall = Instantiate(TNT, blueBarrelEnd.transform.position, transform.rotation);
-            rb.AddForce(transform.right * 4.0f , ForceMode2D.Impulse);
-            audioSource.Play();
-            StartCoroutine(FireDelay());
-        }       
     }
 
     IEnumerator FireDelay()
     {
         canShoot = false;
         yield return new WaitForSeconds(0.2f);
-        PowerUpManager.whoHasPowerUp = 0;
         canShoot = true;
     }
 }
