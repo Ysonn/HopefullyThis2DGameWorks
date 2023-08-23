@@ -7,7 +7,7 @@ public class BlueCannonManager: MonoBehaviour
     public GameObject cannonBall;
     public GameObject TNT;
     public GameObject blueBarrelEnd;
-    public float speed = 0.5f;
+    public float speed = 0.1f;
     public float RotAngleY = 45;
     private bool canShoot = true;
     private bool hasPowerUp = false;
