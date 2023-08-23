@@ -27,11 +27,21 @@ public class BlueCannonManager: MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.RightShift) && canShoot)
         {
-            Instantiate(TNT, blueBarrelEnd.transform.position, transform.rotation);
-            rb.AddForce( transform.right * -4.0f , ForceMode2D.Impulse);
+            GameObject spawnedCannonBall = Instantiate(cannonBall, blueBarrelEnd.transform.position, transform.rotation);
+            rb.AddForce(transform.right * -4.0f , ForceMode2D.Impulse);
+            spawnedCannonBall.tag = "BlueCannonBall";
             audioSource.Play();
             StartCoroutine(FireDelay());
         }        
+
+        if (Input.GetKeyDown(KeyCode.RightShift) && canShoot && (PowerUpManager.whoHasPowerUp == 2))
+        {
+            GameObject spawnedCannonBall = Instantiate(TNT, redBarrelEnd.transform.position, transform.rotation);
+            rb.AddForce(transform.right * 4.0f , ForceMode2D.Impulse);
+            PowerUpManager.whoHasPowerUp = 0;
+            audioSource.Play();
+            StartCoroutine(FireDelay());
+        }       
     }
 
     IEnumerator FireDelay()

@@ -26,8 +26,18 @@ public class RedCannonManager : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.LeftShift) && canShoot)
         {
-            Instantiate(cannonBall, redBarrelEnd.transform.position, transform.rotation);
+            GameObject spawnedCannonBall = Instantiate(cannonBall, redBarrelEnd.transform.position, transform.rotation);
             rb.AddForce( -transform.right * 4.0f , ForceMode2D.Impulse);
+            spawnedCannonBall.tag = "RedCannonBall";
+            audioSource.Play();
+            StartCoroutine(FireDelay());
+        }     
+
+        if (Input.GetKeyDown(KeyCode.LeftShift) && canShoot && (PowerUpManager.whoHasPowerUp == 1))
+        {
+            GameObject spawnedCannonBall = Instantiate(TNT, redBarrelEnd.transform.position, transform.rotation);
+            rb.AddForce( -transform.right * 4.0f , ForceMode2D.Impulse);
+            PowerUpManager.whoHasPowerUp = 0;
             audioSource.Play();
             StartCoroutine(FireDelay());
         }       

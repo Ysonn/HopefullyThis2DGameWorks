@@ -29,7 +29,7 @@ public class RedBlockManager : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.CompareTag("CannonBall") || collision.gameObject.CompareTag("Explosion") )
+        if (collision.gameObject.CompareTag("BlueCannonBall") || collision.gameObject.CompareTag("Explosion") || collision.gameObject.CompareTag("RedCannonBall"))
         {
             blockHealth -= 1;
             spriteRenderer.sprite = CrackedRedBlock;

@@ -142,6 +142,7 @@ MonoBehaviour:
   Whistle: {fileID: 8300000, guid: 9d35134dd60b041ee9c908edcaed8fe7, type: 3}
   MetalImpact: {fileID: 8300000, guid: af33e143640ef40c099f469749f95a65, type: 3}
   GrassImpact: {fileID: 8300000, guid: cbe956b78dbc94a7da232039c24c3ca0, type: 3}
+  PowerUpImpact: {fileID: 8300000, guid: ee2e33a1dce9648c3b5dd3ae46e54567, type: 3}
 --- !u!82 &7840690609075019497
 AudioSource:
   m_ObjectHideFlags: 0

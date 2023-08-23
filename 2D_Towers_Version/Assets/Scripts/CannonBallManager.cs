@@ -9,6 +9,7 @@ public class CannonBallManager : MonoBehaviour
     public AudioClip Whistle;
     public AudioClip MetalImpact;
     public AudioClip GrassImpact;
+    public AudioClip PowerUpImpact;
     private Rigidbody2D cannonBallRigidBody2D;
     private AudioSource audioSource;
     private bool hasCollided = false; 
@@ -35,6 +36,7 @@ public class CannonBallManager : MonoBehaviour
     {
 
         StartCoroutine(ChangeTagDelayed());
+
         Debug.Log ("I have changed tag");
         if (collision.gameObject.CompareTag("Wood") && !hasCollided)
         {
@@ -61,6 +63,15 @@ public class CannonBallManager : MonoBehaviour
             audioSource.volume = 0.5f;
             audioSource.PlayOneShot(GrassImpact);
             Instantiate(GrassParticles, transform.position, transform.rotation);
+            
+        }
+
+        else if (collision.gameObject.CompareTag("PowerUp") && !hasCollided)
+        {
+            hasCollided = true;
+            audioSource.Stop();
+            audioSource.volume = 1.0f;
+            audioSource.PlayOneShot(PowerUpImpact);
             
         }
     }

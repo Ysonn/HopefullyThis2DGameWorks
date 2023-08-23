@@ -4,27 +4,31 @@ using UnityEngine;
 
 public class PowerUpManager : MonoBehaviour
 {
-    public GameObject PowerUp;
+    public static whoHasPowerUp = 0;
     // Start is called before the first frame update
     void Start()
     {
-        InvokeRepeating("SpawnPowerUp", 7f, 11f);
+        
     }
 
     // Update is called once per frame
     void Update()
     {
-    
+        
     }
 
-    void SpawnPowerUp()
+    private void OnCollisionEnter2D(Collision2D collision)
     {
-        float randomX = Random.Range(-0.5f, 1.0f);
-        float randomY = Random.Range(-4.0f, 5.0f);
-        Vector3 spawnPosition = new Vector3(randomX, randomY, 0f);
+        Destroy(gameObject);
 
-        
-        GameObject newPowerUp = Instantiate(PowerUp, spawnPosition, Quaternion.identity);
-        Destroy(newPowerUp, 3.0f);
+        if (collision.gameObject.CompareTag("BlueCannonBall"))
+        {
+`           whoHasPowerUp = 2;
+        }
+
+        if (collision.gameObject.CompareTag("RedCannonBall"))
+        {
+            whoHasPowerUp = 1;
+        }
     }
 }
