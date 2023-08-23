@@ -7,7 +7,7 @@ public class RedCannonManager : MonoBehaviour
     public GameObject cannonBall;
     public GameObject TNT;
     public GameObject redBarrelEnd;
-    public float speed = 1;
+    public float speed = 1.0f;
     public float RotAngleY = 45;
     private bool canShoot = true;
     private bool hasPowerUp = false;
