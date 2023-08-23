@@ -34,11 +34,10 @@ public class RedCannonManager : MonoBehaviour
             StartCoroutine(FireDelay());
         }     
 
-        if (Input.GetKeyDown(KeyCode.LeftShift) && canShoot && (PowerUpManager.whoHasPowerUp == 2))
+        if (Input.GetKeyDown(KeyCode.LeftShift) && canShoot && (PowerUpManager.whoHasPowerUp == 2.0f))
         {
             GameObject spawnedCannonBall = Instantiate(TNT, redBarrelEnd.transform.position, transform.rotation);
             rb.AddForce( -transform.right * 4.0f , ForceMode2D.Impulse);
-            PowerUpManager.whoHasPowerUp = 0;
             audioSource.Play();
             StartCoroutine(FireDelay());
         }       
@@ -48,6 +47,7 @@ public class RedCannonManager : MonoBehaviour
     {
         canShoot = false;
         yield return new WaitForSeconds(0.2f);
+        PowerUpManager.whoHasPowerUp = 0;
         canShoot = true;
     }
 }
