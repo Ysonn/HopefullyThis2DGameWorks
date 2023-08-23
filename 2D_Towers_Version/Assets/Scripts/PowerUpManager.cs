@@ -8,7 +8,7 @@ public class PowerUpManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        InvokeRepeating("SpawnPowerUp", 7f, 7f);
+        InvokeRepeating("SpawnPowerUp", 7f, 11f);
     }
 
     // Update is called once per frame
@@ -23,6 +23,8 @@ public class PowerUpManager : MonoBehaviour
         float randomY = Random.Range(-4.0f, 5.0f);
         Vector3 spawnPosition = new Vector3(randomX, randomY, 0f);
 
-        Instantiate(PowerUp, spawnPosition, Quaternion.identity);
+        
+        GameObject newPowerUp = Instantiate(PowerUp, spawnPosition, Quaternion.identity);
+        Destroy(newPowerUp, 3.0f);
     }
 }
