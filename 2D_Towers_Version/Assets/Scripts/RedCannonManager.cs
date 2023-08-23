@@ -8,7 +8,7 @@ public class RedCannonManager : MonoBehaviour
     public GameObject TNT;
     public GameObject redBarrelEnd;
     public float speed = 1.0f;
-    public float RotAngleY = 45;
+    public float RotAngleY = 10;
     private bool canShoot = true;
     private bool hasPowerUp = false;
     private AudioSource audioSource;
