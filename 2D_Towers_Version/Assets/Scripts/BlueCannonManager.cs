@@ -10,6 +10,7 @@ public class BlueCannonManager: MonoBehaviour
     public float speed = 1;
     public float RotAngleY = 45;
     private bool canShoot = true;
+    private bool hasPowerUp = false;
     private AudioSource audioSource;
     private Rigidbody2D rb;
 
@@ -22,6 +23,11 @@ public class BlueCannonManager: MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (PowerUpManager.whoHasPowerUp == 1)
+        {
+            hasPowerUp = true;
+        }
+
         float rotationZ = Mathf.SmoothStep(-45, RotAngleY, Mathf.PingPong(Time.time * speed, 1));
         transform.rotation = Quaternion.Euler(0, 180, rotationZ);
 
@@ -34,7 +40,7 @@ public class BlueCannonManager: MonoBehaviour
             StartCoroutine(FireDelay());
         }        
 
-        if (Input.GetKeyDown(KeyCode.RightShift) && canShoot && (PowerUpManager.whoHasPowerUp == 1.0f))
+        if (Input.GetKeyDown(KeyCode.RightShift) && canShoot && (hasPowerUp == true))
         {
             GameObject spawnedCannonBall = Instantiate(TNT, blueBarrelEnd.transform.position, transform.rotation);
             rb.AddForce(transform.right * 4.0f , ForceMode2D.Impulse);

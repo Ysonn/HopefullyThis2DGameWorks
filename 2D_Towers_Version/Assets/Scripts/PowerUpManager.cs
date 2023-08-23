@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PowerUpManager : MonoBehaviour
 {
-    public static float whoHasPowerUp = 0.0f;
+    public static int whoHasPowerUp = 0;
     // Start is called before the first frame update
     void Start()
     {
@@ -23,14 +23,14 @@ public class PowerUpManager : MonoBehaviour
 
         if (collision.gameObject.CompareTag("BlueCannonBall"))
         {
-            whoHasPowerUp = 1.0f;
+            whoHasPowerUp = 1;
             Debug.Log("Blue has powerUp");
             Destroy(gameObject);
         }
 
         if (collision.gameObject.CompareTag("RedCannonBall"))
         {
-            whoHasPowerUp = 2.0f;
+            whoHasPowerUp = 2;
             Debug.Log("Red has powerUp");
             Destroy(gameObject);
         }
