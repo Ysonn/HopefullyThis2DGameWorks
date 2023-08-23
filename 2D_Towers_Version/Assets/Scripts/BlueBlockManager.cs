@@ -29,7 +29,7 @@ public class BlueBlockManager : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.CompareTag("CannonBall"))
+        if (collision.gameObject.CompareTag("CannonBall") || collision.gameObject.CompareTag("Explosion"))
         {
             blockHealth -= 1;
             spriteRenderer.sprite = CrackedBlueBlock;

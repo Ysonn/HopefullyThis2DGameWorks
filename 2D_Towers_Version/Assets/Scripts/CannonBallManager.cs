@@ -40,7 +40,7 @@ public class CannonBallManager : MonoBehaviour
         {
             hasCollided = true;
             audioSource.Stop();
-            audioSource.volume = 0.6f;
+            audioSource.volume = 1.0f;
             audioSource.PlayOneShot(WoodImpact);
             
         }

@@ -27,7 +27,7 @@ public class BlueCannonManager: MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.RightShift) && canShoot)
         {
-            Instantiate(cannonBall, blueBarrelEnd.transform.position, transform.rotation);
+            Instantiate(TNT, blueBarrelEnd.transform.position, transform.rotation);
             rb.AddForce( transform.right * -4.0f , ForceMode2D.Impulse);
             audioSource.Play();
             StartCoroutine(FireDelay());
