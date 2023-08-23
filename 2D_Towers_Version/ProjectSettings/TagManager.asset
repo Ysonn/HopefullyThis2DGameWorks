@@ -11,6 +11,8 @@ TagManager:
   - Explosion
   - CannonBall
   - PowerUp
+  - BlueCannonBall
+  - RedCannonBall
   layers:
   - Default
   - TransparentFX

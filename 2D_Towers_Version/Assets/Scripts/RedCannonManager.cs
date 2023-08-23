@@ -5,6 +5,7 @@ using UnityEngine;
 public class RedCannonManager : MonoBehaviour
 {
     public GameObject cannonBall;
+    public GameObject TNT;
     public GameObject redBarrelEnd;
     public float speed = 1;
     public float RotAngleY = 45;
@@ -33,7 +34,7 @@ public class RedCannonManager : MonoBehaviour
             StartCoroutine(FireDelay());
         }     
 
-        if (Input.GetKeyDown(KeyCode.LeftShift) && canShoot && (PowerUpManager.whoHasPowerUp == 1))
+        if (Input.GetKeyDown(KeyCode.LeftShift) && canShoot && (PowerUpManager.whoHasPowerUp == 2))
         {
             GameObject spawnedCannonBall = Instantiate(TNT, redBarrelEnd.transform.position, transform.rotation);
             rb.AddForce( -transform.right * 4.0f , ForceMode2D.Impulse);

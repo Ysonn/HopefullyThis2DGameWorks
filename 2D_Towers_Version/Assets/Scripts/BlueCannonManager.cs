@@ -34,9 +34,9 @@ public class BlueCannonManager: MonoBehaviour
             StartCoroutine(FireDelay());
         }        
 
-        if (Input.GetKeyDown(KeyCode.RightShift) && canShoot && (PowerUpManager.whoHasPowerUp == 2))
+        if (Input.GetKeyDown(KeyCode.RightShift) && canShoot && (PowerUpManager.whoHasPowerUp == 1))
         {
-            GameObject spawnedCannonBall = Instantiate(TNT, redBarrelEnd.transform.position, transform.rotation);
+            GameObject spawnedCannonBall = Instantiate(TNT, blueBarrelEnd.transform.position, transform.rotation);
             rb.AddForce(transform.right * 4.0f , ForceMode2D.Impulse);
             PowerUpManager.whoHasPowerUp = 0;
             audioSource.Play();
