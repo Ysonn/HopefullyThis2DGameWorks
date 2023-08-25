@@ -41,6 +41,8 @@ public class BlueCannonManager: MonoBehaviour
             StartCoroutine(FireDelay());
         }       
 
+        
+
         else if (Input.GetKeyDown(KeyCode.RightShift) && canShoot)
         {
             GameObject spawnedCannonBall = Instantiate(cannonBall, blueBarrelEnd.transform.position, transform.rotation);
