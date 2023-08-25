@@ -49,7 +49,7 @@ public class TNTManager : MonoBehaviour
 
     private void Explosion()
     {
-
+        audioSource.PlayOneShot(ExplosionAudio);
         Collider2D[] colliders = Physics2D.OverlapCircleAll(transform.position, fieldOfImpact);
         foreach (Collider2D target in colliders)
         {
