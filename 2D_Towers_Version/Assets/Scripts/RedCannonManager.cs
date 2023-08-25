@@ -34,7 +34,7 @@ public class RedCannonManager : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.LeftShift) && canShoot && (hasPowerUp == true))
         {
             GameObject spawnedCannonBall = Instantiate(TNT, redBarrelEnd.transform.position, transform.rotation);
-            rb.AddForce( -transform.right * 4.0f , ForceMode2D.Impulse);
+            rb.AddForce( -transform.right * 1.0f , ForceMode2D.Impulse);
             hasPowerUp = false;
             PowerUpManager.whoHasPowerUp = 0;
             audioSource.Play();
@@ -44,7 +44,7 @@ public class RedCannonManager : MonoBehaviour
         else if (Input.GetKeyDown(KeyCode.LeftShift) && canShoot)
         {
             GameObject spawnedCannonBall = Instantiate(cannonBall, redBarrelEnd.transform.position, transform.rotation);
-            rb.AddForce( -transform.right * 4.0f , ForceMode2D.Impulse);
+            rb.AddForce( -transform.right * 1.0f , ForceMode2D.Impulse);
             spawnedCannonBall.tag = "RedCannonBall";
             audioSource.Play();
             StartCoroutine(FireDelay());
