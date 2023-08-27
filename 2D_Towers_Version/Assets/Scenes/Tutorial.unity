@@ -218,7 +218,7 @@ GameObject:
   - component: {fileID: 247058969}
   - component: {fileID: 247058968}
   m_Layer: 0
-  m_Name: green-field-in-sunny-day-vector
+  m_Name: Background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -387,7 +387,7 @@ GameObject:
   - component: {fileID: 445887430}
   - component: {fileID: 445887429}
   m_Layer: 0
-  m_Name: Main Camera/MusicBox
+  m_Name: MainCamera
   m_TagString: MainCamera
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
