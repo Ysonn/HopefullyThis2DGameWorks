@@ -60,8 +60,8 @@ public class MenuButtonManager : MonoBehaviour
     public void MakeTextSwedish()
     {
         playButtonText.text = "Spela"; 
-        exitButtonText.text = "Avslut";
-        tutorialButtonText.text = "Insructioner";
+        exitButtonText.text = "Avsluta";
+        tutorialButtonText.text = "Instruktioner";
     }
     public void MakeTextEnglish()
     {
