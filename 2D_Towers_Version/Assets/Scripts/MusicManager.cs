@@ -16,7 +16,7 @@ public class MusicManager : MonoBehaviour
     {
         if (BlueKingManager.blueLost == true || RedKingManager.redLost == true)
         {
-
+            audioSource.Stop();
         }
     }
 }
