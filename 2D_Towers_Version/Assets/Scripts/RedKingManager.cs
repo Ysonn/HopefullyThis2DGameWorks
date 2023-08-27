@@ -14,6 +14,7 @@ public class RedKingManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        redLost = false;
         audioSource = GetComponent<AudioSource>();
         spriteRenderer = GetComponent<SpriteRenderer>();
     }
@@ -40,13 +41,12 @@ public class RedKingManager : MonoBehaviour
         spriteRenderer.sprite = DeadRedKing;
         redLost = true;
         StartCoroutine(DelayedChangeScene());
-        Destroy(gameObject, 3.0f);
     }
 
     IEnumerator DelayedChangeScene()
     {
         // Wait for 5 seconds
-        yield return new WaitForSeconds(5.0f);
+        yield return new WaitForSeconds(3.0f);
 
         // Change to the "MainMenu" scene
         SceneManager.LoadScene("MainMenu");
