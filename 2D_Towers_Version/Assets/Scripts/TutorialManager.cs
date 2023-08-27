@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 
 public class TutorialManager : MonoBehaviour
 {
+    //sets an array for all the tutorial images 
     public GameObject[] tutorialImages; 
     private int currentImage= 0; 
     // Start is called before the first frame update
@@ -23,9 +24,10 @@ public class TutorialManager : MonoBehaviour
     {
         
     }
-
+    //unhides the next image in the array and hides the previous one, cycling to the next image.
     public void ShowNextImage()
     {
+        //if the image isn't the last image
         if (currentImage < tutorialImages.Length - 1)
         {
             tutorialImages[currentImage].gameObject.SetActive(false);
@@ -33,9 +35,10 @@ public class TutorialManager : MonoBehaviour
             tutorialImages[currentImage].gameObject.SetActive(true);
         }
     }
-
+    //same as previous function, but in reverse
     public void ShowPreviousImage()
     {
+        //if the image isn't the first image 
         if (currentImage> 0)
         {
             tutorialImages[currentImage].gameObject.SetActive(false);
@@ -43,7 +46,7 @@ public class TutorialManager : MonoBehaviour
             tutorialImages[currentImage].gameObject.SetActive(true);
         }
     }
-
+    //changes to the menu scene 
     public void LoadMenuScene()
     {
         SceneManager.LoadScene("MainMenu");
