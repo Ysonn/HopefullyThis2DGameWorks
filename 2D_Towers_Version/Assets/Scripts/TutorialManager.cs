@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class TutorialManager : MonoBehaviour
 {
@@ -23,7 +24,7 @@ public class TutorialManager : MonoBehaviour
         
     }
 
-    public void ShowNextImageEng()
+    public void ShowNextImage()
     {
         if (currentImage < tutorialImages.Length - 1)
         {
@@ -33,7 +34,7 @@ public class TutorialManager : MonoBehaviour
         }
     }
 
-    public void ShowPreviousImageEng()
+    public void ShowPreviousImage()
     {
         if (currentImage> 0)
         {
@@ -41,5 +42,10 @@ public class TutorialManager : MonoBehaviour
             currentImage--;
             tutorialImages[currentImage].gameObject.SetActive(true);
         }
+    }
+
+    private void LoadMenuScene()
+    {
+        SceneManager.LoadScene("MainMenu");
     }
 }

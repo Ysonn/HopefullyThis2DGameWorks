@@ -73,6 +73,7 @@ public class MenuButtonManager : MonoBehaviour
         tutorialButtonText.text = "Tutorial";
         isSwedish = false;
     }
+    
 
 
 }
