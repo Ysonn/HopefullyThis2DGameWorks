@@ -26,11 +26,16 @@ public class RedKingManager : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Explosion") || collision.gameObject.CompareTag("BlueCannonBall") || collision.gameObject.CompareTag("RedCannonBall"))
         {
-            audioSource.PlayOneShot(KingDying);
-            spriteRenderer.sprite = DeadRedKing;
-            redLost = true;
-            Destroy(gameObject, 3.0f);
+            Die();
         }
         
     } 
+
+    private void Die()
+    {
+        audioSource.PlayOneShot(KingDying);
+        spriteRenderer.sprite = DeadRedKing;
+        redLost = true;
+        Destroy(gameObject, 3.0f);
+    }
 }
