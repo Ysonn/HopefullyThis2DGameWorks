@@ -14,14 +14,14 @@ public class WinTextManager : MonoBehaviour
     {
         if (BlueKingManager.blueLost == true && !blueWinTextSpawned)
         {
-            Instantiate(blueWinText, transform.position, transform.rotation);
-            blueWinTextSpawned = true; 
+            Instantiate(redWinText, transform.position, transform.rotation);
+            redWinTextSpawned = true;  // Set the flag to true to prevent further spawning 
         }
 
         if (RedKingManager.redLost == true && !redWinTextSpawned)
         {
-            Instantiate(redWinText, transform.position, transform.rotation);
-            redWinTextSpawned = true;  // Set the flag to true to prevent further spawning
+            Instantiate(blueWinText, transform.position, transform.rotation);
+            blueWinTextSpawned = true;  // Set the flag to true to prevent further spawning
         }
     }
 }
