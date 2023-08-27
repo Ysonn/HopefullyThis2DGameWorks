@@ -15,6 +15,7 @@ public class MenuButtonManager : MonoBehaviour
     public Button playButton;
     public Button tutorialButton;
     public Button exitButton;
+    public static bool isSwedish = false;
     // Start is called before the first frame update
     void Start()
     {
@@ -62,12 +63,15 @@ public class MenuButtonManager : MonoBehaviour
         playButtonText.text = "Spela"; 
         exitButtonText.text = "Avsluta";
         tutorialButtonText.text = "Instruktioner";
+        isSwedish = true;
+
     }
     public void MakeTextEnglish()
     {
         playButtonText.text = "Play"; 
         exitButtonText.text = "Exit";
         tutorialButtonText.text = "Tutorial";
+        isSwedish = false;
     }
 
 

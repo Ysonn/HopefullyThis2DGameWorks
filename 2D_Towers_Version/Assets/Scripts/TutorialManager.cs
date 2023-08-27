@@ -5,17 +5,15 @@ using UnityEngine.UI;
 
 public class TutorialManager : MonoBehaviour
 {
-    public GameObject[] tutorialImagesEnglish; 
-    public GameObject[] tutorialImagesSwedish; 
-    private int currentImageEnglish = 0; 
-    private int currentImageSwedish = 0; 
+    public GameObject[] tutorialImages; 
+    private int currentImage= 0; 
     // Start is called before the first frame update
     void Start()
     {
         // Hide all images except the first one
-        for (int i = 1; i < tutorialImagesEnglish.Length; i++)
+        for (int i = 1; i < tutorialImages.Length; i++)
         {
-            tutorialImagesEnglish[i].gameObject.SetActive(false);
+            tutorialImages[i].gameObject.SetActive(false);
         }
     }
 
@@ -25,23 +23,23 @@ public class TutorialManager : MonoBehaviour
         
     }
 
-    public void ShowNextImage()
+    public void ShowNextImageEng()
     {
-        if (currentImageEnglish < tutorialImagesEnglish.Length - 1)
+        if (currentImage < tutorialImages.Length - 1)
         {
-            tutorialImagesEnglish[currentImageEnglish].gameObject.SetActive(false);
-            currentImageEnglish++;
-            tutorialImagesEnglish[currentImageEnglish].gameObject.SetActive(true);
+            tutorialImages[currentImage].gameObject.SetActive(false);
+            currentImage++;
+            tutorialImages[currentImage].gameObject.SetActive(true);
         }
     }
 
-    public void ShowPreviousImage()
+    public void ShowPreviousImageEng()
     {
-        if (currentImageEnglish> 0)
+        if (currentImage> 0)
         {
-            tutorialImagesEnglish[currentImageEnglish].gameObject.SetActive(false);
-            currentImageEnglish--;
-            tutorialImagesEnglish[currentImageEnglish].gameObject.SetActive(true);
+            tutorialImages[currentImage].gameObject.SetActive(false);
+            currentImage--;
+            tutorialImages[currentImage].gameObject.SetActive(true);
         }
     }
 }
