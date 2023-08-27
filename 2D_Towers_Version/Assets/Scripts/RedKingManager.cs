@@ -1,11 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class RedKingManager : MonoBehaviour
 {
     public Sprite DeadRedKing;
     public AudioClip KingDying;
+    public AudioClip blueWins;
     public static bool redLost = false;
     private AudioSource audioSource;
     private SpriteRenderer spriteRenderer;
@@ -34,8 +36,19 @@ public class RedKingManager : MonoBehaviour
     private void Die()
     {
         audioSource.PlayOneShot(KingDying);
+        audioSource.PlayOneShot(blueWins);
         spriteRenderer.sprite = DeadRedKing;
         redLost = true;
+        StartCoroutine(DelayedChangeScene());
         Destroy(gameObject, 3.0f);
+    }
+
+    IEnumerator DelayedChangeScene()
+    {
+        // Wait for 5 seconds
+        yield return new WaitForSeconds(5.0f);
+
+        // Change to the "MainMenu" scene
+        SceneManager.LoadScene("MainMenu");
     }
 }
