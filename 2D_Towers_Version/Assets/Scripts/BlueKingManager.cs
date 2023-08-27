@@ -8,6 +8,7 @@ public class BlueKingManager : MonoBehaviour
     public AudioClip KingDying;
     public Transform ExplosionHitBoxCenter;
     public float ExplosionHitBoxRadius;
+    public static bool blueLost = false;
     private AudioSource audioSource;
     private SpriteRenderer spriteRenderer;
     // Start is called before the first frame update
@@ -43,6 +44,7 @@ public class BlueKingManager : MonoBehaviour
     {
         audioSource.PlayOneShot(KingDying);
         spriteRenderer.sprite = DeadBlueKing;
+        blueLost = true;
         Destroy(gameObject, 3.0f);
     }
 }

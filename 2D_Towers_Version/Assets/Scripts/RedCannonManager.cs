@@ -23,6 +23,12 @@ public class RedCannonManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
+        if (BlueKingManager.blueLost == true || RedKingManager.redLost == true)
+        {
+            canShoot = false;
+        }
+
         if (PowerUpManager.whoHasPowerUp == 2)
         {
             hasPowerUp = true;

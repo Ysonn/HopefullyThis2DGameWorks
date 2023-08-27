@@ -6,6 +6,7 @@ public class RedKingManager : MonoBehaviour
 {
     public Sprite DeadRedKing;
     public AudioClip KingDying;
+    public static bool redLost = false;
     private AudioSource audioSource;
     private SpriteRenderer spriteRenderer;
     // Start is called before the first frame update
@@ -27,6 +28,7 @@ public class RedKingManager : MonoBehaviour
         {
             audioSource.PlayOneShot(KingDying);
             spriteRenderer.sprite = DeadRedKing;
+            redLost = true;
             Destroy(gameObject, 3.0f);
         }
         
