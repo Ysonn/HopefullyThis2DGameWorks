@@ -18,7 +18,11 @@ public class MenuButtonManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        swedishButton.onClick.AddListener(SetSwedish);
+        englishButton.onClick.AddListener(SetEnglish);
+        playButton.onClick.AddListener(LoadGameScene);
+        tutorialButton.onClick.AddListener(LoadTutorialScene);
+        exitButton.onClick.AddListener(ExitGame);
     }
 
     // Update is called once per frame
@@ -26,4 +30,45 @@ public class MenuButtonManager : MonoBehaviour
     {
         
     }
+
+
+    public void LoadGameScene()
+    {
+        SceneManager.LoadScene("Game");  
+    }
+
+    public void LoadTutorialScene()
+    {
+        SceneManager.LoadScene("Tutorial");
+    }
+
+    private void SetSwedish()
+    {
+        MakeTextSwedish();
+    }
+
+    private void SetEnglish()
+    {
+        MakeTextEnglish();
+    }
+
+    private void ExitGame()
+    {
+        Application.Quit();
+    }
+
+    public void MakeTextSwedish()
+    {
+        playButtonText.text = "Spela"; 
+        exitButtonText.text = "Avslut";
+        tutorialButtonText.text = "Insructioner";
+    }
+    public void MakeTextEnglish()
+    {
+        playButtonText.text = "Play"; 
+        exitButtonText.text = "Exit";
+        tutorialButtonText.text = "Tutorial";
+    }
+
+
 }
