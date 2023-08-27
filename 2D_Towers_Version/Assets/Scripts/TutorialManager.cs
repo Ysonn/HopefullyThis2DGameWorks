@@ -27,20 +27,20 @@ public class TutorialManager : MonoBehaviour
 
     public void ShowNextImage()
     {
-        if (currentIndex < tutorialImages.Length - 1)
+        if (currentImageEnglish < tutorialImagesEnglish.Length - 1)
         {
             tutorialImagesEnglish[currentImageEnglish].gameObject.SetActive(false);
-            currentIndex++;
+            currentImageEnglish++;
             tutorialImagesEnglish[currentImageEnglish].gameObject.SetActive(true);
         }
     }
 
     public void ShowPreviousImage()
     {
-        if (currentIndex > 0)
+        if (currentImageEnglish> 0)
         {
             tutorialImagesEnglish[currentImageEnglish].gameObject.SetActive(false);
-            currentIndex--;
+            currentImageEnglish--;
             tutorialImagesEnglish[currentImageEnglish].gameObject.SetActive(true);
         }
     }
