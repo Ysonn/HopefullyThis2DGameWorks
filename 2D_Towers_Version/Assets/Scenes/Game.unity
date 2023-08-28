@@ -28970,7 +28970,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   DeadRedKing: {fileID: 21300000, guid: 4a8a0743bedab4270be9d597f9f4b175, type: 3}
-  KingDying: {fileID: 8300000, guid: 0cda8252cd69f4d1c9125efad9e87008, type: 3}
+  kingDying: {fileID: 8300000, guid: 0cda8252cd69f4d1c9125efad9e87008, type: 3}
   blueWins: {fileID: 8300000, guid: 5dcd6f46689924611b81bdb4e6d525bc, type: 3}
 --- !u!82 &2138952875
 AudioSource:
