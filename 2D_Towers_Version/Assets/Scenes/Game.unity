@@ -21596,7 +21596,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   DeadBlueKing: {fileID: 21300000, guid: 79e6e8936a72944d6b5d625e1f88c8a7, type: 3}
   KingDying: {fileID: 8300000, guid: 0cda8252cd69f4d1c9125efad9e87008, type: 3}
-  redWins: {fileID: 8300000, guid: 45ded0d6086e54d91918668e24d4852e, type: 3}
   ExplosionHitBoxCenter: {fileID: 4628817768497307731, guid: 85bcbf88496d0428cbe982b77333ab92, type: 3}
   ExplosionHitBoxRadius: 0.5
 --- !u!70 &1590770987
@@ -28970,8 +28969,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   DeadRedKing: {fileID: 21300000, guid: 4a8a0743bedab4270be9d597f9f4b175, type: 3}
-  KingDying: {fileID: 8300000, guid: 0cda8252cd69f4d1c9125efad9e87008, type: 3}
+<<<<<<< HEAD
+  kingDying: {fileID: 8300000, guid: 0cda8252cd69f4d1c9125efad9e87008, type: 3}
   blueWins: {fileID: 8300000, guid: 5dcd6f46689924611b81bdb4e6d525bc, type: 3}
+=======
+  KingDying: {fileID: 8300000, guid: 0cda8252cd69f4d1c9125efad9e87008, type: 3}
+>>>>>>> parent of 5e97a28 (adfsghg)
 --- !u!82 &2138952875
 AudioSource:
   m_ObjectHideFlags: 0

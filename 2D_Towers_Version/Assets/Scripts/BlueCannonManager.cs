@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class BlueCannonManager: MonoBehaviour
+public class RedCannonManager : MonoBehaviour
 {
     public GameObject cannonBall;
     public GameObject TNT;
@@ -23,6 +23,7 @@ public class BlueCannonManager: MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
         if (BlueKingManager.blueLost == true || RedKingManager.redLost == true)
         {
             canShoot = false;
@@ -34,35 +35,34 @@ public class BlueCannonManager: MonoBehaviour
         }
 
         float rotationZ = Mathf.SmoothStep(-45, RotAngleY, Mathf.PingPong(Time.time * speed, 1));
-        transform.rotation = Quaternion.Euler(0, 180, rotationZ);
+        transform.rotation = Quaternion.Euler(0, 0, rotationZ);
 
-        if (Input.GetKeyDown(KeyCode.RightShift) && canShoot && (hasPowerUp == true))
+        if (Input.GetKeyDown(KeyCode.LeftShift) && canShoot && (hasPowerUp == true))
         {
-            GameObject spawnedCannonBall = Instantiate(TNT, blueBarrelEnd.transform.position, transform.rotation);
-            rb.AddForce(transform.right * -1.0f , ForceMode2D.Impulse);
+            GameObject spawnedCannonBall = Instantiate(TNT, redBarrelEnd.transform.position, transform.rotation);
+            rb.AddForce( transform.right * 1.0f , ForceMode2D.Impulse);
             hasPowerUp = false;
             PowerUpManager.whoHasPowerUp = 0;
             audioSource.Play();
             StartCoroutine(FireDelay());
         }       
 
-        
-
-        else if (Input.GetKeyDown(KeyCode.RightShift) && canShoot)
+        else if (Input.GetKeyDown(KeyCode.LeftShift) && canShoot)
         {
-            GameObject spawnedCannonBall = Instantiate(cannonBall, blueBarrelEnd.transform.position, transform.rotation);
-            rb.AddForce(transform.right * -1.0f , ForceMode2D.Impulse);
-            spawnedCannonBall.tag = "BlueCannonBall";
+            GameObject spawnedCannonBall = Instantiate(cannonBall, redBarrelEnd.transform.position, transform.rotation);
+            rb.AddForce( -transform.right * 1.0f , ForceMode2D.Impulse);
+            spawnedCannonBall.tag = "RedCannonBall";
             audioSource.Play();
             StartCoroutine(FireDelay());
-        }        
+        }     
 
-    }
+        
+    }  
 
     IEnumerator FireDelay()
     {
         canShoot = false;
-        yield return new WaitForSeconds(0.2f);
+        yield return new WaitForSeconds(0.01f);
         canShoot = true;
     }
 }

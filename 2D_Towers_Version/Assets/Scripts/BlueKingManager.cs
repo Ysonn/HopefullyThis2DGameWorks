@@ -1,13 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
 public class BlueKingManager : MonoBehaviour
 {
     public Sprite DeadBlueKing;
     public AudioClip KingDying;
-    public AudioClip redWins;
     public Transform ExplosionHitBoxCenter;
     public float ExplosionHitBoxRadius;
     public static bool blueLost = false;
@@ -46,19 +44,23 @@ public class BlueKingManager : MonoBehaviour
     private void Die()
     {
         audioSource.PlayOneShot(KingDying);
-        audioSource.PlayOneShot(redWins);
         spriteRenderer.sprite = DeadBlueKing;
         blueLost = true;
+<<<<<<< HEAD
         StartCoroutine(DelayedChangeScene());
     }
 
     IEnumerator DelayedChangeScene()
     {
         // Wait for 5 seconds
-        yield return new WaitForSeconds(3.0f);
+        yield return new WaitForSeconds(4.0f);
 
         // Change to the "MainMenu" scene
         SceneManager.LoadScene("MainMenu");
     }
+=======
+        Destroy(gameObject, 3.0f);
+    }
+>>>>>>> parent of 5e97a28 (adfsghg)
 }
 
